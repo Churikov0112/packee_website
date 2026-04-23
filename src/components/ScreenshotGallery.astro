@@ -1,0 +1,331 @@
+---
+interface Props {
+  title: string;
+  hint: string;
+  screenshots: string[];
+  openLabel: string;
+  closeLabel: string;
+  prevLabel: string;
+  nextLabel: string;
+  captionTemplate: string;
+  screenshotAltTemplate: string;
+}
+
+const { title, hint, screenshots, openLabel, closeLabel, prevLabel, nextLabel, captionTemplate, screenshotAltTemplate } = Astro.props;
+---
+
+<section class="-mx-4 rounded-none border border-brand-navy/10 bg-white p-3 shadow-card sm:mx-0 sm:rounded-3xl sm:p-6" data-gallery-root data-caption-template={captionTemplate} data-screenshot-alt-template={screenshotAltTemplate}>
+  <div class="mb-4 flex items-center justify-between gap-3">
+    <h3 class="text-xl font-bold text-brand-navy">{title}</h3>
+    <span class="text-xs font-medium uppercase tracking-[0.12em] text-brand-graphite/55">{hint}</span>
+  </div>
+
+  <div class="screenshot-scroll -mx-3 overflow-x-auto px-3 pb-2 sm:-mx-1 sm:px-1 sm:pb-3 md:cursor-grab" data-inline-scroller>
+    <div class="screenshot-track flex w-max gap-3 sm:gap-4" data-inline-track>
+      {screenshots.map((shot, index) => (
+        <button
+          type="button"
+          class="group relative w-[44vw] max-w-[182px] shrink-0 overflow-hidden rounded-2xl border border-brand-navy/10 bg-brand-mist shadow-sm transition hover:shadow-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-emerald/50 sm:w-[42vw] sm:max-w-[320px] lg:w-[30vw]"
+          data-shot-index={index}
+          aria-label={openLabel.replace('{index}', String(index + 1))}
+        >
+          <img src={shot} alt={screenshotAltTemplate.replace('{index}', String(index + 1))} class="aspect-[9/19] h-full w-full object-cover" loading="lazy" draggable="false" />
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <template data-modal-template>
+    <div class="gallery-modal" data-modal aria-hidden="false">
+      <div class="gallery-backdrop" data-close-modal></div>
+      <div class="gallery-shell" role="dialog" aria-modal="true" aria-label={title}>
+        <button type="button" class="gallery-close" data-close-modal aria-label={closeLabel}>✕</button>
+        <button type="button" class="gallery-nav gallery-prev" data-prev aria-label={prevLabel}>‹</button>
+        <div class="gallery-image-wrap" data-swipe-area>
+          <img src="" alt="" data-modal-image class="gallery-image" />
+        </div>
+        <button type="button" class="gallery-nav gallery-next" data-next aria-label={nextLabel}>›</button>
+        <p class="gallery-caption" data-caption></p>
+      </div>
+    </div>
+  </template>
+</section>
+
+<script>
+  const galleryRoots = Array.from(document.querySelectorAll('[data-gallery-root]'));
+
+  galleryRoots.forEach((root) => {
+    const inlineScroller = root.querySelector('[data-inline-scroller]');
+    const template = root.querySelector('[data-modal-template]') as HTMLTemplateElement | null;
+    const shots = Array.from(root.querySelectorAll('[data-shot-index]'));
+    const captionTemplate = root.getAttribute('data-caption-template') ?? '{current}/{total}';
+    const screenshotAltTemplate = root.getAttribute('data-screenshot-alt-template') ?? '{index}';
+
+    if (!(inlineScroller instanceof HTMLElement) || !template || shots.length === 0) {
+      return;
+    }
+
+    let selectedIndex: number | null = null;
+    let modalSwipeStartX = 0;
+    let modalElement: HTMLElement | null = null;
+
+    let suppressClickUntil = 0;
+    const suppressDurationMs = 140;
+
+    const isFinePointer = window.matchMedia('(pointer:fine)').matches;
+    const dragThreshold = 8;
+    const dragSpeed = 1;
+
+    let activeMousePointerId: number | null = null;
+    let mouseStartX = 0;
+    let mouseStartScrollLeft = 0;
+
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let isTouchTracking = false;
+
+    const suppressClick = () => {
+      suppressClickUntil = Date.now() + suppressDurationMs;
+    };
+
+    const shouldSuppressClick = () => Date.now() < suppressClickUntil;
+
+    const getModalPart = (selector: string) => modalElement?.querySelector(selector) ?? null;
+
+    const updateModal = () => {
+      const modalImage = getModalPart('[data-modal-image]');
+      const caption = getModalPart('[data-caption]');
+
+      if (!(modalImage instanceof HTMLImageElement)) {
+        return;
+      }
+
+      if (selectedIndex === null) {
+        modalImage.src = '';
+        modalImage.alt = '';
+        if (caption) caption.textContent = '';
+        return;
+      }
+
+      const target = shots[selectedIndex]?.querySelector('img');
+
+      if (!(target instanceof HTMLImageElement)) {
+        return;
+      }
+
+      modalImage.src = target.src;
+      modalImage.alt = target.alt || screenshotAltTemplate.replace('{index}', String(selectedIndex + 1));
+
+      if (caption) {
+        caption.textContent = captionTemplate.replace('{current}', String(selectedIndex + 1)).replace('{total}', String(shots.length));
+      }
+    };
+
+    const move = (direction: number) => {
+      if (selectedIndex === null) {
+        return;
+      }
+
+      selectedIndex = (selectedIndex + direction + shots.length) % shots.length;
+      updateModal();
+    };
+
+    function closeModal() {
+      selectedIndex = null;
+      updateModal();
+
+      if (modalElement) {
+        modalElement.remove();
+        modalElement = null;
+      }
+
+      document.body.classList.remove('gallery-open');
+    }
+
+    const attachModalEvents = () => {
+      const closeTriggers = modalElement?.querySelectorAll('[data-close-modal]') ?? [];
+      const prevButton = getModalPart('[data-prev]');
+      const nextButton = getModalPart('[data-next]');
+      const swipeArea = getModalPart('[data-swipe-area]');
+
+      closeTriggers.forEach((trigger) => {
+        trigger.addEventListener('click', closeModal);
+      });
+
+      prevButton?.addEventListener('click', () => move(-1));
+      nextButton?.addEventListener('click', () => move(1));
+
+      swipeArea?.addEventListener('touchstart', (event) => {
+        const touchEvent = event as TouchEvent;
+        modalSwipeStartX = touchEvent.changedTouches[0]?.clientX ?? 0;
+      });
+
+      swipeArea?.addEventListener('touchend', (event) => {
+        const touchEvent = event as TouchEvent;
+        const touchEndX = touchEvent.changedTouches[0]?.clientX ?? 0;
+        const delta = touchEndX - modalSwipeStartX;
+
+        if (Math.abs(delta) < 40) {
+          return;
+        }
+
+        if (delta > 0) {
+          move(-1);
+        } else {
+          move(1);
+        }
+      });
+    };
+
+    const openModal = (index: number) => {
+      selectedIndex = index;
+
+      if (!modalElement) {
+        const fragment = template.content.cloneNode(true) as DocumentFragment;
+        const candidate = fragment.firstElementChild;
+
+        if (!(candidate instanceof HTMLElement)) {
+          return;
+        }
+
+        modalElement = candidate;
+        document.body.appendChild(modalElement);
+        attachModalEvents();
+      }
+
+      updateModal();
+      document.body.classList.add('gallery-open');
+    };
+
+    shots.forEach((shot, index) => {
+      shot.addEventListener('click', (event) => {
+        if (shouldSuppressClick()) {
+          event.preventDefault();
+          return;
+        }
+
+        openModal(index);
+      });
+    });
+
+    inlineScroller.addEventListener('pointerdown', (event) => {
+      const pointerEvent = event as PointerEvent;
+
+      if (!isFinePointer || pointerEvent.pointerType !== 'mouse' || pointerEvent.button !== 0) {
+        return;
+      }
+
+      activeMousePointerId = pointerEvent.pointerId;
+      mouseStartX = pointerEvent.clientX;
+      mouseStartScrollLeft = inlineScroller.scrollLeft;
+
+      inlineScroller.setPointerCapture(pointerEvent.pointerId);
+      inlineScroller.setAttribute('data-dragging', 'true');
+      inlineScroller.classList.add('snap-none');
+    });
+
+    inlineScroller.addEventListener('pointermove', (event) => {
+      const pointerEvent = event as PointerEvent;
+
+      if (activeMousePointerId === pointerEvent.pointerId) {
+        const deltaX = pointerEvent.clientX - mouseStartX;
+        inlineScroller.scrollLeft = mouseStartScrollLeft - deltaX * dragSpeed;
+
+        if (Math.abs(deltaX) > dragThreshold) {
+          suppressClick();
+        }
+
+        return;
+      }
+
+    });
+
+    const endPointerInteraction = (pointerEvent: PointerEvent) => {
+      if (activeMousePointerId === pointerEvent.pointerId) {
+        activeMousePointerId = null;
+        inlineScroller.removeAttribute('data-dragging');
+        inlineScroller.classList.remove('snap-none');
+      }
+
+    };
+
+    inlineScroller.addEventListener('pointerup', (event) => {
+      endPointerInteraction(event as PointerEvent);
+    });
+
+    inlineScroller.addEventListener('pointercancel', (event) => {
+      endPointerInteraction(event as PointerEvent);
+    });
+
+    inlineScroller.addEventListener('lostpointercapture', (event) => {
+      endPointerInteraction(event as PointerEvent);
+    });
+
+    inlineScroller.addEventListener(
+      'touchstart',
+      (event) => {
+        const touch = event.touches[0];
+
+        if (!touch) {
+          return;
+        }
+
+        touchStartX = touch.clientX;
+        touchStartY = touch.clientY;
+        isTouchTracking = true;
+      },
+      { passive: true }
+    );
+
+    inlineScroller.addEventListener(
+      'touchmove',
+      (event) => {
+        if (!isTouchTracking) {
+          return;
+        }
+
+        const touch = event.touches[0];
+
+        if (!touch) {
+          return;
+        }
+
+        const deltaX = touch.clientX - touchStartX;
+        const deltaY = touch.clientY - touchStartY;
+
+        if (Math.abs(deltaX) > 8 || Math.abs(deltaY) > 8) {
+          suppressClick();
+        }
+      },
+      { passive: true }
+    );
+
+    inlineScroller.addEventListener(
+      'touchend',
+      () => {
+        isTouchTracking = false;
+      },
+      { passive: true }
+    );
+
+    inlineScroller.addEventListener(
+      'touchcancel',
+      () => {
+        isTouchTracking = false;
+      },
+      { passive: true }
+    );
+
+    inlineScroller.addEventListener('dragstart', (event) => event.preventDefault());
+
+    document.addEventListener('keydown', (event) => {
+      if (!modalElement || selectedIndex === null) {
+        return;
+      }
+
+      if (event.key === 'Escape') closeModal();
+      if (event.key === 'ArrowLeft') move(-1);
+      if (event.key === 'ArrowRight') move(1);
+    });
+  });
+</script>

@@ -1,0 +1,103 @@
+{
+  "title": "Datenschutzerklärung",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Einleitung",
+      "paragraphs": [
+        "Diese Datenschutzerklärung für personenbezogene Daten gilt für alle Informationen, die die mobile Anwendung Football Collection, verfügbar bei Google Play, App Store, Huawei AppGallery und RuStore, während der Nutzung über einen Nutzer erhalten kann."
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Begriffsbestimmungen",
+      "paragraphs": [
+        "In dieser Datenschutzerklärung werden folgende Begriffe verwendet:"
+      ],
+      "bullets": [
+        "Mobile-App-Administration: autorisierte Personen, die für die Verwaltung der Football Collection App verantwortlich sind.",
+        "Personenbezogene Daten: Informationen einschließlich IP-Adresse und Geolokation, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.",
+        "Verarbeitung personenbezogener Daten: alle Vorgänge mit personenbezogenen Daten, einschließlich Erhebung und Speicherung.",
+        "Vertraulichkeit personenbezogener Daten: Verpflichtung, personenbezogene Daten ohne Zustimmung des Nutzers nicht offenzulegen.",
+        "Nutzer der mobilen App: Person, die die Football Collection App verwendet."
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Allgemeine Bestimmungen",
+      "clauses": [
+        {
+          "number": "3.1.",
+          "text": "Diese Datenschutzerklärung ist für alle Nutzer der Football Collection App verbindlich."
+        },
+        {
+          "number": "3.2.",
+          "text": "Für diese Richtlinie und die Beziehungen zwischen Nutzer und App-Administration gilt das geltende Recht der Russischen Föderation."
+        },
+        {
+          "number": "3.3.",
+          "text": "Die Nutzung der mobilen Anwendung bedeutet die Zustimmung des Nutzers zu dieser Datenschutzerklärung."
+        },
+        {
+          "number": "3.4.",
+          "text": "Wenn der Nutzer den Bedingungen nicht zustimmt, muss er die Nutzung der App einstellen."
+        },
+        {
+          "number": "3.5.",
+          "text": "Diese Richtlinie legt die Pflichten der Administration zum Schutz der Vertraulichkeit und Nichtweitergabe personenbezogener Daten fest."
+        },
+        {
+          "number": "3.6.",
+          "text": "Die App-Administration prüft die Richtigkeit der von Nutzern bereitgestellten personenbezogenen Daten nicht."
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Zwecke der Erhebung personenbezogener Nutzerdaten",
+      "clauses": [
+        {
+          "number": "4.1.",
+          "text": "Personenbezogene Nutzerdaten können von der Football Collection App-Administration für folgende Zwecke verwendet werden:"
+        }
+      ],
+      "bullets": [
+        "Nutzerfeedback und Kommunikation.",
+        "Bestimmung des Nutzerstandorts zur Bereitstellung von Navigation.",
+        "Bereitstellung von Kunden- und technischem Support für Nutzer."
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Methoden und Fristen der Informationsverarbeitung",
+      "clauses": [
+        {
+          "number": "5.1.",
+          "text": "Personenbezogene Daten werden zeitlich unbegrenzt mit allen gesetzlich zulässigen Mitteln verarbeitet, einschließlich Informationssystemen mit oder ohne Automatisierung."
+        },
+        {
+          "number": "5.5.",
+          "text": "Die App-Administration trifft die notwendigen organisatorischen und technischen Maßnahmen, um personenbezogene Informationen des Nutzers vor unrechtmäßigem oder zufälligem Zugriff, Vernichtung, Veränderung, Sperrung, Kopieren, Verbreitung und anderen rechtswidrigen Handlungen Dritter zu schützen."
+        },
+        {
+          "number": "5.6.",
+          "text": "Die App-Administration ergreift gemeinsam mit dem Nutzer alle erforderlichen Maßnahmen, um Verluste oder andere negative Folgen durch Verlust oder Offenlegung personenbezogener Daten zu verhindern."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Zusätzliche Bedingungen",
+      "clauses": [
+        {
+          "number": "6.1.",
+          "text": "Die App-Administration kann diese Datenschutzerklärung ohne Zustimmung des Nutzers ändern."
+        },
+        {
+          "number": "6.2.",
+          "text": "Eine neue Version der Datenschutzerklärung tritt mit ihrer Veröffentlichung in der mobilen Anwendung in Kraft, sofern in der neuen Version nichts anderes vorgesehen ist."
+        }
+      ]
+    }
+  ]
+}

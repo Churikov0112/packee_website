@@ -1,0 +1,28 @@
+{
+  "name": "DosBrosDev",
+  "tagline": "মোবাইলের জন্য প্রিমিয়াম ফুটবল কার্ড কালেকশন গেম",
+  "heroTitle": "ফুটবলের মহিমা সংগ্রহ করুন, এক প্যাক করে।",
+  "heroDescription": "DosBrosDev দুই ভাইয়ের স্টুডিও, যারা ফুটবল ভালোবাসে এবং বিশ্বজুড়ে ভক্তদের প্রিয় কার্ড বিনামূল্যে সংগ্রহে সাহায্য করে।",
+  "contact": {
+    "telegram": "https://t.me/dosbrosdev",
+    "whatsapp": "https://chat.whatsapp.com/FRadRMQ6gLP4mX03KDANtf",
+    "email": "mailto:dosbrosdev@gmail.com"
+  },
+  "founders": [
+    {
+      "name": "Egor Churikov",
+      "role": "Software Developer",
+      "photo": "/images/founders/Egor.webp"
+    },
+    {
+      "name": "Ivan Churikov",
+      "role": "2D & 3D Artist",
+      "photo": "/images/founders/Ivan.webp"
+    },
+    {
+      "name": "Petr",
+      "role": "Software Developer",
+      "photo": "/images/founders/Petr.webp"
+    }
+  ]
+}

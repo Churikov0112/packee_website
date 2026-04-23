@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "Игры",
+    "about": "О нас",
+    "contact": "Контакты",
+    "privacy": "Конфиденциальность"
+  },
+  "hero": {
+    "badge": "Инди-футбольная студия",
+    "ctaPrimary": "Смотреть игры",
+    "ctaSecondary": "Связаться со студией"
+  },
+  "home": {
+    "gamesEyebrow": "Игры",
+    "gamesTitle": "Смотреть игры",
+    "gamesSubtitle": "DosBrosDev создаёт премиальные мобильные игры про коллекционирование футбольных карточек.",
+    "whyEyebrow": "Почему DosBrosDev",
+    "whyTitle": "Почему DosBrosDev",
+    "whySubtitle": "DosBrosDev создаёт премиальные мобильные игры про коллекционирование футбольных карточек.",
+    "whyCards": [
+      {
+        "title": "Почему DosBrosDev",
+        "description": "DosBrosDev создаёт премиальные мобильные игры про коллекционирование футбольных карточек."
+      },
+      {
+        "title": "Игры",
+        "description": "DosBrosDev создаёт премиальные мобильные игры про коллекционирование футбольных карточек."
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev создаёт премиальные мобильные игры про коллекционирование футбольных карточек."
+      }
+    ],
+    "aboutEyebrow": "О нас",
+    "aboutTitle": "О нас",
+    "aboutSubtitle": "DosBrosDev создаёт премиальные мобильные игры про коллекционирование футбольных карточек.",
+    "contactEyebrow": "Контакты",
+    "contactTitle": "Контакты",
+    "contactSubtitle": "DosBrosDev создаёт премиальные мобильные игры про коллекционирование футбольных карточек."
+  },
+  "game": {
+    "explore": "Открыть игру",
+    "back": "Назад ко всем играм",
+    "featuresTitle": "Особенности игры",
+    "aboutTitle": "Об игре",
+    "relatedTitle": "Похожие игры",
+    "screenshots": "Скриншоты",
+    "swipeHint": "Листайте для просмотра",
+    "download": "Скачать",
+    "downloadsSoon": "Ссылки для скачивания скоро появятся.",
+    "featuresSoon": "Список возможностей скоро появится.",
+    "openScreenshot": "Открыть скриншот {index}",
+    "closeGallery": "Закрыть галерею",
+    "previousScreenshot": "Предыдущий скриншот",
+    "nextScreenshot": "Следующий скриншот",
+    "screenshotOf": "Скриншот {current} из {total}",
+    "screenshotAlt": "Скриншот игры {index}",
+    "iconAlt": "Иконка {title}"
+  },
+  "contact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | Футбольные карточные игры",
+    "homeDescription": "DosBrosDev создаёт премиальные мобильные игры про коллекционирование футбольных карточек.",
+    "privacyTitle": "Политика конфиденциальности | DosBrosDev",
+    "privacyDescription": "Политика конфиденциальности DosBrosDev для футбольных мобильных игр."
+  },
+  "footer": {
+    "rights": "Все права защищены."
+  }
+}

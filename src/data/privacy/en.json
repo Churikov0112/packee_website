@@ -1,0 +1,103 @@
+{
+  "title": "Privacy Policy",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Introduction",
+      "paragraphs": [
+        "This Personal Data Privacy Policy (hereinafter, the Privacy Policy) applies to all information that the Football Collection mobile application, available on Google Play, App Store, Huawei AppGallery, and RuStore, may receive about a User while the application is used."
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Definitions",
+      "paragraphs": [
+        "The following terms are used in this Privacy Policy:"
+      ],
+      "bullets": [
+        "Mobile Application Administration means authorized persons responsible for managing the Football Collection mobile application.",
+        "Personal data means information, including IP address and geolocation, related to an identified or identifiable natural person.",
+        "Personal data processing means any operations performed with personal data, including collection and storage.",
+        "Confidentiality of personal data means the obligation not to disclose personal data without user consent.",
+        "Mobile application user means a person using the Football Collection application."
+      ]
+    },
+    {
+      "number": "3",
+      "title": "General Provisions",
+      "clauses": [
+        {
+          "number": "3.1.",
+          "text": "This Privacy Policy is mandatory for all users of the Football Collection mobile application."
+        },
+        {
+          "number": "3.2.",
+          "text": "Current legislation of the Russian Federation applies to this Privacy Policy and to relations between the User and the Mobile Application Administration."
+        },
+        {
+          "number": "3.3.",
+          "text": "Using the mobile application means the user agrees to this Privacy Policy."
+        },
+        {
+          "number": "3.4.",
+          "text": "If the user disagrees with the Privacy Policy terms, the user must stop using the application."
+        },
+        {
+          "number": "3.5.",
+          "text": "This Privacy Policy establishes obligations of the Mobile Application Administration to protect confidentiality and non-disclosure of personal data."
+        },
+        {
+          "number": "3.6.",
+          "text": "The Mobile Application Administration does not verify accuracy of personal data provided by users."
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Purposes of collecting user personal information",
+      "clauses": [
+        {
+          "number": "4.1.",
+          "text": "User personal data may be used by the Mobile Application Administration of Football Collection for the following purposes:"
+        }
+      ],
+      "bullets": [
+        "User feedback and communication.",
+        "Determining user location to provide navigation.",
+        "Providing customer and technical support to users."
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Methods and periods of information processing",
+      "clauses": [
+        {
+          "number": "5.1.",
+          "text": "Personal data is processed without time limitation, by any lawful means, including personal data information systems with or without automation tools."
+        },
+        {
+          "number": "5.5.",
+          "text": "The Mobile Application Administration takes necessary organizational and technical measures to protect user personal information from unlawful or accidental access, destruction, alteration, blocking, copying, distribution, and other unlawful actions by third parties."
+        },
+        {
+          "number": "5.6.",
+          "text": "The Mobile Application Administration together with the User takes all necessary measures to prevent losses or other negative consequences caused by loss or disclosure of personal data."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Additional conditions",
+      "clauses": [
+        {
+          "number": "6.1.",
+          "text": "The Mobile Application Administration may amend this Privacy Policy without user consent."
+        },
+        {
+          "number": "6.2.",
+          "text": "A new Privacy Policy takes effect from the moment it is published in the mobile application, unless otherwise stated in the new version."
+        }
+      ]
+    }
+  ]
+}

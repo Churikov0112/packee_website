@@ -1,0 +1,43 @@
+---
+import type { DownloadLink } from '@/lib/games';
+
+interface Props {
+  downloads: DownloadLink[];
+  label: string;
+  emptyLabel: string;
+}
+
+const { downloads, label, emptyLabel } = Astro.props;
+
+const normalize = (text: string) => text.trim().toLowerCase();
+const getIconName = (text: string) => {
+  const key = normalize(text);
+  if (key.includes('google play')) return 'google-play';
+  if (key.includes('google drive')) return 'google-drive';
+  if (key.includes('yandex')) return 'yandex-disk';
+  if (key.includes('rustore')) return 'rustore';
+  return 'generic';
+};
+const getIconPath = (text: string) => `/images/platforms/${getIconName(text)}.svg`;
+---
+
+<div class="space-y-3">
+  {downloads.length ? (
+    downloads.map((download) => (
+      <a
+        href={download.url}
+        target="_blank"
+        rel="noreferrer"
+        class="group flex min-h-14 w-full items-center gap-3 rounded-2xl border border-brand-navy/15 bg-white px-4 py-3 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-brand-emerald/50 hover:shadow-card"
+      >
+        <img src={getIconPath(download.label)} alt="" aria-hidden="true" class="h-8 w-8 shrink-0 rounded-md border border-brand-navy/10 bg-brand-mist p-1.5" loading="lazy" />
+        <span class="flex flex-col">
+          <span class="text-xs font-medium uppercase tracking-[0.14em] text-brand-graphite/60">{label}</span>
+          <span class="text-base font-semibold text-brand-navy transition group-hover:text-brand-emerald">{download.label}</span>
+        </span>
+      </a>
+    ))
+  ) : (
+    <p class="rounded-xl border border-brand-navy/15 bg-white px-4 py-3 text-sm text-brand-graphite/70">{emptyLabel}</p>
+  )}
+</div>

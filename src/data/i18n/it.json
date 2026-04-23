@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "Giochi",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "badge": "Studio indie di calcio",
+    "ctaPrimary": "Esplora giochi",
+    "ctaSecondary": "Contatta lo studio"
+  },
+  "home": {
+    "gamesEyebrow": "Giochi",
+    "gamesTitle": "Esplora giochi",
+    "gamesSubtitle": "DosBrosDev crea giochi premium di collezione carte calcio per dispositivi mobili.",
+    "whyEyebrow": "Perché DosBrosDev",
+    "whyTitle": "Perché DosBrosDev",
+    "whySubtitle": "DosBrosDev crea giochi premium di collezione carte calcio per dispositivi mobili.",
+    "whyCards": [
+      {
+        "title": "Perché DosBrosDev",
+        "description": "DosBrosDev crea giochi premium di collezione carte calcio per dispositivi mobili."
+      },
+      {
+        "title": "Giochi",
+        "description": "DosBrosDev crea giochi premium di collezione carte calcio per dispositivi mobili."
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev crea giochi premium di collezione carte calcio per dispositivi mobili."
+      }
+    ],
+    "aboutEyebrow": "Chi siamo",
+    "aboutTitle": "Chi siamo",
+    "aboutSubtitle": "DosBrosDev crea giochi premium di collezione carte calcio per dispositivi mobili.",
+    "contactEyebrow": "Contatti",
+    "contactTitle": "Contatti",
+    "contactSubtitle": "DosBrosDev crea giochi premium di collezione carte calcio per dispositivi mobili."
+  },
+  "game": {
+    "explore": "Apri gioco",
+    "back": "Torna a tutti i giochi",
+    "featuresTitle": "Caratteristiche del gioco",
+    "aboutTitle": "Informazioni sul gioco",
+    "relatedTitle": "Giochi correlati",
+    "screenshots": "Screenshot",
+    "swipeHint": "Scorri per esplorare",
+    "download": "Scarica",
+    "downloadsSoon": "Link di download disponibili a breve.",
+    "featuresSoon": "Le funzionalità saranno annunciate presto.",
+    "openScreenshot": "Apri screenshot {index}",
+    "closeGallery": "Chiudi galleria",
+    "previousScreenshot": "Screenshot precedente",
+    "nextScreenshot": "Screenshot successivo",
+    "screenshotOf": "Screenshot {current} di {total}",
+    "screenshotAlt": "Screenshot del gioco {index}",
+    "iconAlt": "Icona di {title}"
+  },
+  "contact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | Giochi di carte calcistiche",
+    "homeDescription": "DosBrosDev crea giochi premium di collezione carte calcio per dispositivi mobili.",
+    "privacyTitle": "Informativa sulla privacy | DosBrosDev",
+    "privacyDescription": "Leggi l’informativa sulla privacy di DosBrosDev per i nostri giochi mobili di calcio."
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati."
+  }
+}

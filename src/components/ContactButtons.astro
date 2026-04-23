@@ -1,0 +1,20 @@
+---
+import type { SiteContact } from '@/lib/site';
+
+interface Props {
+  contact: SiteContact;
+  labels: {
+    telegram: string;
+    whatsapp: string;
+    email: string;
+  };
+}
+
+const { contact, labels } = Astro.props;
+---
+
+<div class="flex flex-wrap justify-center gap-3">
+  <a href={contact.telegram} class="rounded-xl bg-brand-navy px-5 py-3 text-sm font-semibold text-white hover:bg-brand-emerald">{labels.telegram}</a>
+  <a href={contact.whatsapp} class="rounded-xl bg-brand-navy px-5 py-3 text-sm font-semibold text-white hover:bg-brand-emerald">{labels.whatsapp}</a>
+  <a href={contact.email} class="rounded-xl bg-brand-gold px-5 py-3 text-sm font-semibold text-brand-navy hover:brightness-95">{labels.email}</a>
+</div>

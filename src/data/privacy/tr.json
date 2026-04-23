@@ -1,0 +1,103 @@
+{
+  "title": "Gizlilik Politikası",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Giriş",
+      "paragraphs": [
+        "Bu Kişisel Veri Gizlilik Politikası, Google Play, App Store, Huawei AppGallery ve RuStore’da bulunan Football Collection mobil uygulamasının kullanım sırasında Kullanıcı hakkında alabileceği tüm bilgiler için geçerlidir."
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Tanımlar",
+      "paragraphs": [
+        "Bu Gizlilik Politikasında aşağıdaki terimler kullanılır:"
+      ],
+      "bullets": [
+        "Mobil Uygulama Yönetimi: Football Collection uygulamasını yönetmekten sorumlu yetkili kişiler.",
+        "Kişisel veri: IP adresi ve coğrafi konum dahil, kimliği belirli veya belirlenebilir gerçek kişiye ilişkin bilgiler.",
+        "Kişisel verilerin işlenmesi: toplama ve saklama dahil kişisel verilerle yapılan tüm işlemler.",
+        "Kişisel verilerin gizliliği: kullanıcı onayı olmadan kişisel verilerin açıklanmaması yükümlülüğü.",
+        "Mobil uygulama kullanıcısı: Football Collection uygulamasını kullanan kişi."
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Genel hükümler",
+      "clauses": [
+        {
+          "number": "3.1.",
+          "text": "Bu Gizlilik Politikası, Football Collection mobil uygulamasının tüm kullanıcıları için zorunludur."
+        },
+        {
+          "number": "3.2.",
+          "text": "Bu Politikaya ve Kullanıcı ile Uygulama Yönetimi arasındaki ilişkilere Rusya Federasyonu’nun yürürlükteki mevzuatı uygulanır."
+        },
+        {
+          "number": "3.3.",
+          "text": "Mobil uygulamanın kullanılması, kullanıcının bu Gizlilik Politikasını kabul ettiği anlamına gelir."
+        },
+        {
+          "number": "3.4.",
+          "text": "Kullanıcı koşulları kabul etmiyorsa uygulamayı kullanmayı bırakmalıdır."
+        },
+        {
+          "number": "3.5.",
+          "text": "Bu Politika, kişisel verilerin gizliliğinin korunması ve ifşa edilmemesi konusunda Yönetimin yükümlülüklerini belirler."
+        },
+        {
+          "number": "3.6.",
+          "text": "Uygulama Yönetimi, kullanıcıların sağladığı kişisel verilerin doğruluğunu doğrulamaz."
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Kullanıcı kişisel bilgilerinin toplanma amaçları",
+      "clauses": [
+        {
+          "number": "4.1.",
+          "text": "Kullanıcının kişisel verileri, Football Collection Uygulama Yönetimi tarafından aşağıdaki amaçlarla kullanılabilir:"
+        }
+      ],
+      "bullets": [
+        "Kullanıcı geri bildirimi ve iletişimi.",
+        "Navigasyon sağlamak için kullanıcının konumunun belirlenmesi.",
+        "Kullanıcılara müşteri ve teknik destek sağlanması."
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Bilgi işleme yöntemleri ve süreleri",
+      "clauses": [
+        {
+          "number": "5.1.",
+          "text": "Kişisel veriler, otomasyon araçlarıyla veya otomasyonsuz kişisel veri bilgi sistemleri dahil olmak üzere, süre sınırlaması olmaksızın ve yasal yollarla işlenir."
+        },
+        {
+          "number": "5.5.",
+          "text": "Uygulama Yönetimi, kullanıcıya ait kişisel bilgileri hukuka aykırı veya kazara erişim, imha, değiştirme, engelleme, kopyalama, yayma ve diğer yasa dışı üçüncü taraf eylemlerine karşı korumak için gerekli organizasyonel ve teknik önlemleri alır."
+        },
+        {
+          "number": "5.6.",
+          "text": "Uygulama Yönetimi ve Kullanıcı, kişisel verilerin kaybı veya ifşası nedeniyle oluşabilecek zararları ve diğer olumsuz sonuçları önlemek için gerekli tüm önlemleri alır."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Ek koşullar",
+      "clauses": [
+        {
+          "number": "6.1.",
+          "text": "Uygulama Yönetimi, kullanıcı onayı olmadan bu Gizlilik Politikasını değiştirebilir."
+        },
+        {
+          "number": "6.2.",
+          "text": "Gizlilik Politikasının yeni sürümü, aksi belirtilmedikçe mobil uygulamada yayımlandığı andan itibaren yürürlüğe girer."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "Juegos",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "privacy": "Privacidad"
+  },
+  "hero": {
+    "badge": "Estudio indie de fútbol",
+    "ctaPrimary": "Explorar juegos",
+    "ctaSecondary": "Contactar estudio"
+  },
+  "home": {
+    "gamesEyebrow": "Juegos",
+    "gamesTitle": "Explorar juegos",
+    "gamesSubtitle": "DosBrosDev crea juegos premium de colección de cartas de fútbol para móviles.",
+    "whyEyebrow": "Por qué DosBrosDev",
+    "whyTitle": "Por qué DosBrosDev",
+    "whySubtitle": "DosBrosDev crea juegos premium de colección de cartas de fútbol para móviles.",
+    "whyCards": [
+      {
+        "title": "Por qué DosBrosDev",
+        "description": "DosBrosDev crea juegos premium de colección de cartas de fútbol para móviles."
+      },
+      {
+        "title": "Juegos",
+        "description": "DosBrosDev crea juegos premium de colección de cartas de fútbol para móviles."
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev crea juegos premium de colección de cartas de fútbol para móviles."
+      }
+    ],
+    "aboutEyebrow": "Sobre nosotros",
+    "aboutTitle": "Sobre nosotros",
+    "aboutSubtitle": "DosBrosDev crea juegos premium de colección de cartas de fútbol para móviles.",
+    "contactEyebrow": "Contacto",
+    "contactTitle": "Contacto",
+    "contactSubtitle": "DosBrosDev crea juegos premium de colección de cartas de fútbol para móviles."
+  },
+  "game": {
+    "explore": "Ver juego",
+    "back": "Volver a todos los juegos",
+    "featuresTitle": "Características del juego",
+    "aboutTitle": "Sobre este juego",
+    "relatedTitle": "Juegos relacionados",
+    "screenshots": "Capturas",
+    "swipeHint": "Desliza para explorar",
+    "download": "Descargar",
+    "downloadsSoon": "Enlaces de descarga próximamente.",
+    "featuresSoon": "Las características se anunciarán pronto.",
+    "openScreenshot": "Abrir captura {index}",
+    "closeGallery": "Cerrar galería",
+    "previousScreenshot": "Captura anterior",
+    "nextScreenshot": "Siguiente captura",
+    "screenshotOf": "Captura {current} de {total}",
+    "screenshotAlt": "Captura del juego {index}",
+    "iconAlt": "Icono de {title}"
+  },
+  "contact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "email": "Correo"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | Juegos de cartas de fútbol",
+    "homeDescription": "DosBrosDev crea juegos premium de colección de cartas de fútbol para móviles.",
+    "privacyTitle": "Política de privacidad | DosBrosDev",
+    "privacyDescription": "Lee la política de privacidad de DosBrosDev para nuestros juegos móviles de fútbol."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

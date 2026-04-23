@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "Spiele",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz"
+  },
+  "hero": {
+    "badge": "Indie-Fußballstudio",
+    "ctaPrimary": "Spiele entdecken",
+    "ctaSecondary": "Studio kontaktieren"
+  },
+  "home": {
+    "gamesEyebrow": "Spiele",
+    "gamesTitle": "Spiele entdecken",
+    "gamesSubtitle": "DosBrosDev entwickelt Premium-Fußballkartensammelspiele für Mobilgeräte.",
+    "whyEyebrow": "Warum DosBrosDev",
+    "whyTitle": "Warum DosBrosDev",
+    "whySubtitle": "DosBrosDev entwickelt Premium-Fußballkartensammelspiele für Mobilgeräte.",
+    "whyCards": [
+      {
+        "title": "Warum DosBrosDev",
+        "description": "DosBrosDev entwickelt Premium-Fußballkartensammelspiele für Mobilgeräte."
+      },
+      {
+        "title": "Spiele",
+        "description": "DosBrosDev entwickelt Premium-Fußballkartensammelspiele für Mobilgeräte."
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev entwickelt Premium-Fußballkartensammelspiele für Mobilgeräte."
+      }
+    ],
+    "aboutEyebrow": "Über uns",
+    "aboutTitle": "Über uns",
+    "aboutSubtitle": "DosBrosDev entwickelt Premium-Fußballkartensammelspiele für Mobilgeräte.",
+    "contactEyebrow": "Kontakt",
+    "contactTitle": "Kontakt",
+    "contactSubtitle": "DosBrosDev entwickelt Premium-Fußballkartensammelspiele für Mobilgeräte."
+  },
+  "game": {
+    "explore": "Spiel ansehen",
+    "back": "Zurück zu allen Spielen",
+    "featuresTitle": "Spielmerkmale",
+    "aboutTitle": "Über dieses Spiel",
+    "relatedTitle": "Ähnliche Spiele",
+    "screenshots": "Screenshots",
+    "swipeHint": "Zum Erkunden wischen",
+    "download": "Download",
+    "downloadsSoon": "Download-Links folgen in Kürze.",
+    "featuresSoon": "Features werden bald bekannt gegeben.",
+    "openScreenshot": "Screenshot {index} öffnen",
+    "closeGallery": "Galerie schließen",
+    "previousScreenshot": "Vorheriger Screenshot",
+    "nextScreenshot": "Nächster Screenshot",
+    "screenshotOf": "Screenshot {current} von {total}",
+    "screenshotAlt": "Spiel-Screenshot {index}",
+    "iconAlt": "{title}-Symbol"
+  },
+  "contact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "email": "E-Mail"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | Fußballkartensammelspiele",
+    "homeDescription": "DosBrosDev entwickelt Premium-Fußballkartensammelspiele für Mobilgeräte.",
+    "privacyTitle": "Datenschutzerklärung | DosBrosDev",
+    "privacyDescription": "Lesen Sie die Datenschutzerklärung von DosBrosDev für unsere mobilen Fußballspiele."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

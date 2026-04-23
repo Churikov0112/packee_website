@@ -1,0 +1,30 @@
+---
+import type { Locale, UiDictionary } from '@/lib/i18n';
+import type { SiteData } from '@/lib/site';
+import { localizePath } from '@/lib/i18n';
+
+interface Props {
+  locale: Locale;
+  dictionary: UiDictionary;
+  site: SiteData;
+}
+
+const { locale, dictionary, site } = Astro.props;
+---
+
+<section class="bg-stadium relative overflow-hidden">
+  <div class="pitch-lines absolute inset-0 opacity-40"></div>
+  <div class="absolute -left-24 top-16 h-56 w-56 rounded-full bg-brand-gold/20 blur-3xl"></div>
+  <div class="absolute -right-20 bottom-0 h-72 w-72 rounded-full bg-brand-emerald/30 blur-3xl"></div>
+  <div class="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+    <p class="mb-4 inline-flex rounded-full border border-brand-gold/40 bg-white/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-brand-gold">
+      {dictionary.hero.badge}
+    </p>
+    <h1 class="max-w-3xl text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">{site.heroTitle}</h1>
+    <p class="mt-6 max-w-2xl text-base text-white/85 sm:text-lg">{site.heroDescription}</p>
+    <div class="mt-8 flex flex-wrap gap-4">
+      <a href={localizePath(locale, '/#games')} class="rounded-xl bg-brand-gold px-6 py-3 text-sm font-semibold text-brand-navy shadow-glow transition hover:-translate-y-0.5">{dictionary.hero.ctaPrimary}</a>
+      <a href={localizePath(locale, '/#contact')} class="rounded-xl border border-white/30 bg-white/10 px-6 py-3 text-sm font-semibold text-white hover:bg-white/20">{dictionary.hero.ctaSecondary}</a>
+    </div>
+  </div>
+</section>

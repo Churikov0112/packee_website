@@ -1,0 +1,44 @@
+---
+import type { Locale, UiDictionary } from '@/lib/i18n';
+import { localizePath } from '@/lib/i18n';
+import type { LocalizedGame } from '@/lib/games';
+
+interface Props {
+  locale: Locale;
+  game: LocalizedGame;
+  dictionary: UiDictionary;
+}
+
+const { locale, game, dictionary } = Astro.props;
+---
+
+<article class="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/60 bg-white/90 p-5 shadow-card transition duration-300 md:hover:-translate-y-1 md:hover:shadow-glow sm:p-6">
+  <a
+    href={localizePath(locale, `/games/${game.slug}`)}
+    class="absolute inset-0 z-10 rounded-3xl md:hidden"
+    aria-label={`${dictionary.game.explore}: ${game.title}`}
+  ></a>
+  <div class="pointer-events-none absolute -right-16 -top-16 h-44 w-44 rounded-full bg-brand-gold/15 blur-3xl"></div>
+  <div class="pointer-events-none absolute -left-24 bottom-0 h-40 w-40 rounded-full bg-brand-emerald/10 blur-3xl"></div>
+
+  <div class="relative flex items-start gap-4">
+    <div class="shrink-0">
+      <img src={game.icon} alt={dictionary.game.iconAlt.replace('{title}', game.title)} class="h-16 w-16 rounded-2xl object-cover shadow-sm sm:h-20 sm:w-20" loading="lazy" />
+    </div>
+
+    <div class="min-w-0 flex-1">
+      <h3 class="text-lg font-bold leading-tight text-brand-navy sm:text-xl">{game.title}</h3>
+      <p class="mt-2 text-sm text-brand-graphite/80">{game.shortDescription}</p>
+    </div>
+  </div>
+  <div class="mt-auto pt-7 sm:pt-6">
+    <a
+      href={localizePath(locale, `/games/${game.slug}`)}
+      class="relative z-20 inline-flex items-center gap-2 self-start rounded-full border border-brand-emerald/30 bg-brand-emerald/10 px-4 py-2 text-sm font-semibold text-brand-emerald transition hover:border-brand-navy/30 hover:bg-brand-navy/10 hover:text-brand-navy"
+    >
+      {dictionary.game.explore}
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</article>
+

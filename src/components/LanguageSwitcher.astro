@@ -1,0 +1,62 @@
+---
+import { LOCALES, LOCALE_LABELS, switchLocalePath, type Locale } from '@/lib/i18n';
+
+interface Props {
+  currentLocale: Locale;
+  currentPath: string;
+  compact?: boolean;
+}
+
+const { currentLocale, currentPath, compact = false } = Astro.props;
+---
+
+<div class="relative" data-lang-switcher>
+  <button
+    type="button"
+    class={`inline-flex h-10 items-center gap-2 rounded-full border border-white/30 bg-white/10 text-sm font-semibold text-white hover:bg-white/20 ${compact ? 'w-10 justify-center px-0' : 'px-3'}`}
+    aria-haspopup="true"
+    aria-expanded="false"
+    data-lang-trigger
+  >
+    <span aria-hidden="true">🌐</span>
+    {!compact && <span>{LOCALE_LABELS[currentLocale].code}</span>}
+  </button>
+
+  <div class="absolute end-0 mt-2 hidden w-56 rounded-2xl border border-brand-navy/10 bg-white p-2 shadow-card" data-lang-menu>
+    {LOCALES.map((locale) => (
+      <a
+        href={switchLocalePath(currentPath, locale)}
+        class={`flex items-center justify-between rounded-xl px-3 py-2 text-sm ${locale === currentLocale ? 'bg-brand-navy text-white' : 'text-brand-navy hover:bg-brand-mist'}`}
+      >
+        <span>{LOCALE_LABELS[locale].code}</span>
+        <span>{LOCALE_LABELS[locale].nativeName}</span>
+      </a>
+    ))}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('[data-lang-switcher]').forEach((root) => {
+    const trigger = root.querySelector('[data-lang-trigger]');
+    const menu = root.querySelector('[data-lang-menu]');
+    if (!(trigger instanceof HTMLButtonElement) || !(menu instanceof HTMLElement)) return;
+
+    const close = () => {
+      menu.classList.add('hidden');
+      trigger.setAttribute('aria-expanded', 'false');
+    };
+
+    trigger.addEventListener('click', () => {
+      const next = menu.classList.toggle('hidden');
+      trigger.setAttribute('aria-expanded', String(!next));
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!root.contains(event.target as Node)) close();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') close();
+    });
+  });
+</script>

@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "게임",
+    "about": "소개",
+    "contact": "문의",
+    "privacy": "개인정보"
+  },
+  "hero": {
+    "badge": "인디 축구 스튜디오",
+    "ctaPrimary": "게임 둘러보기",
+    "ctaSecondary": "스튜디오 문의"
+  },
+  "home": {
+    "gamesEyebrow": "게임",
+    "gamesTitle": "게임 둘러보기",
+    "gamesSubtitle": "DosBrosDev는 모바일용 프리미엄 축구 카드 수집 게임을 만듭니다.",
+    "whyEyebrow": "왜 DosBrosDev인가",
+    "whyTitle": "왜 DosBrosDev인가",
+    "whySubtitle": "DosBrosDev는 모바일용 프리미엄 축구 카드 수집 게임을 만듭니다.",
+    "whyCards": [
+      {
+        "title": "왜 DosBrosDev인가",
+        "description": "DosBrosDev는 모바일용 프리미엄 축구 카드 수집 게임을 만듭니다."
+      },
+      {
+        "title": "게임",
+        "description": "DosBrosDev는 모바일용 프리미엄 축구 카드 수집 게임을 만듭니다."
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev는 모바일용 프리미엄 축구 카드 수집 게임을 만듭니다."
+      }
+    ],
+    "aboutEyebrow": "소개",
+    "aboutTitle": "소개",
+    "aboutSubtitle": "DosBrosDev는 모바일용 프리미엄 축구 카드 수집 게임을 만듭니다.",
+    "contactEyebrow": "문의",
+    "contactTitle": "문의",
+    "contactSubtitle": "DosBrosDev는 모바일용 프리미엄 축구 카드 수집 게임을 만듭니다."
+  },
+  "game": {
+    "explore": "게임 보기",
+    "back": "모든 게임으로 돌아가기",
+    "featuresTitle": "게임 특징",
+    "aboutTitle": "게임 소개",
+    "relatedTitle": "관련 게임",
+    "screenshots": "스크린샷",
+    "swipeHint": "스와이프로 둘러보기",
+    "download": "다운로드",
+    "downloadsSoon": "다운로드 링크가 곧 제공됩니다.",
+    "featuresSoon": "기능 정보가 곧 공개됩니다.",
+    "openScreenshot": "스크린샷 {index} 열기",
+    "closeGallery": "갤러리 닫기",
+    "previousScreenshot": "이전 스크린샷",
+    "nextScreenshot": "다음 스크린샷",
+    "screenshotOf": "스크린샷 {current}/{total}",
+    "screenshotAlt": "게임 스크린샷 {index}",
+    "iconAlt": "{title} 아이콘"
+  },
+  "contact": {
+    "telegram": "텔레그램",
+    "whatsapp": "왓츠앱",
+    "email": "이메일"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | 축구 카드 수집 게임",
+    "homeDescription": "DosBrosDev는 모바일용 프리미엄 축구 카드 수집 게임을 만듭니다.",
+    "privacyTitle": "개인정보 처리방침 | DosBrosDev",
+    "privacyDescription": "DosBrosDev 축구 모바일 게임 개인정보 처리방침을 확인하세요."
+  },
+  "footer": {
+    "rights": "모든 권리 보유."
+  }
+}

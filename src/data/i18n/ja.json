@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "ゲーム",
+    "about": "概要",
+    "contact": "連絡先",
+    "privacy": "プライバシー"
+  },
+  "hero": {
+    "badge": "インディーサッカースタジオ",
+    "ctaPrimary": "ゲームを見る",
+    "ctaSecondary": "スタジオに連絡"
+  },
+  "home": {
+    "gamesEyebrow": "ゲーム",
+    "gamesTitle": "ゲームを見る",
+    "gamesSubtitle": "DosBrosDev はモバイル向けの高品質サッカーカード収集ゲームを開発しています。",
+    "whyEyebrow": "DosBrosDevが選ばれる理由",
+    "whyTitle": "DosBrosDevが選ばれる理由",
+    "whySubtitle": "DosBrosDev はモバイル向けの高品質サッカーカード収集ゲームを開発しています。",
+    "whyCards": [
+      {
+        "title": "DosBrosDevが選ばれる理由",
+        "description": "DosBrosDev はモバイル向けの高品質サッカーカード収集ゲームを開発しています。"
+      },
+      {
+        "title": "ゲーム",
+        "description": "DosBrosDev はモバイル向けの高品質サッカーカード収集ゲームを開発しています。"
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev はモバイル向けの高品質サッカーカード収集ゲームを開発しています。"
+      }
+    ],
+    "aboutEyebrow": "私たちについて",
+    "aboutTitle": "私たちについて",
+    "aboutSubtitle": "DosBrosDev はモバイル向けの高品質サッカーカード収集ゲームを開発しています。",
+    "contactEyebrow": "連絡先",
+    "contactTitle": "連絡先",
+    "contactSubtitle": "DosBrosDev はモバイル向けの高品質サッカーカード収集ゲームを開発しています。"
+  },
+  "game": {
+    "explore": "ゲームを見る",
+    "back": "ゲーム一覧に戻る",
+    "featuresTitle": "ゲームの特徴",
+    "aboutTitle": "このゲームについて",
+    "relatedTitle": "関連ゲーム",
+    "screenshots": "スクリーンショット",
+    "swipeHint": "スワイプして閲覧",
+    "download": "ダウンロード",
+    "downloadsSoon": "ダウンロードリンクは近日公開です。",
+    "featuresSoon": "機能は近日公開予定です。",
+    "openScreenshot": "スクリーンショット {index} を開く",
+    "closeGallery": "ギャラリーを閉じる",
+    "previousScreenshot": "前のスクリーンショット",
+    "nextScreenshot": "次のスクリーンショット",
+    "screenshotOf": "{total}枚中 {current}枚目",
+    "screenshotAlt": "ゲームスクリーンショット {index}",
+    "iconAlt": "{title} のアイコン"
+  },
+  "contact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "email": "メール"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | サッカーカード収集ゲーム",
+    "homeDescription": "DosBrosDev はモバイル向けの高品質サッカーカード収集ゲームを開発しています。",
+    "privacyTitle": "プライバシーポリシー | DosBrosDev",
+    "privacyDescription": "DosBrosDev のサッカーモバイルゲーム向けプライバシーポリシー。"
+  },
+  "footer": {
+    "rights": "無断転載を禁じます。"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "গেমস",
+    "about": "আমাদের সম্পর্কে",
+    "contact": "যোগাযোগ",
+    "privacy": "গোপনীয়তা"
+  },
+  "hero": {
+    "badge": "ইন্ডি ফুটবল স্টুডিও",
+    "ctaPrimary": "গেমস দেখুন",
+    "ctaSecondary": "স্টুডিওর সাথে যোগাযোগ করুন"
+  },
+  "home": {
+    "gamesEyebrow": "গেমস",
+    "gamesTitle": "গেমস দেখুন",
+    "gamesSubtitle": "DosBrosDev মোবাইলের জন্য প্রিমিয়াম ফুটবল কার্ড কালেকশন গেম তৈরি করে।",
+    "whyEyebrow": "কেন DosBrosDev",
+    "whyTitle": "কেন DosBrosDev",
+    "whySubtitle": "DosBrosDev মোবাইলের জন্য প্রিমিয়াম ফুটবল কার্ড কালেকশন গেম তৈরি করে।",
+    "whyCards": [
+      {
+        "title": "কেন DosBrosDev",
+        "description": "DosBrosDev মোবাইলের জন্য প্রিমিয়াম ফুটবল কার্ড কালেকশন গেম তৈরি করে।"
+      },
+      {
+        "title": "গেমস",
+        "description": "DosBrosDev মোবাইলের জন্য প্রিমিয়াম ফুটবল কার্ড কালেকশন গেম তৈরি করে।"
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev মোবাইলের জন্য প্রিমিয়াম ফুটবল কার্ড কালেকশন গেম তৈরি করে।"
+      }
+    ],
+    "aboutEyebrow": "আমাদের সম্পর্কে",
+    "aboutTitle": "আমাদের সম্পর্কে",
+    "aboutSubtitle": "DosBrosDev মোবাইলের জন্য প্রিমিয়াম ফুটবল কার্ড কালেকশন গেম তৈরি করে।",
+    "contactEyebrow": "যোগাযোগ",
+    "contactTitle": "যোগাযোগ",
+    "contactSubtitle": "DosBrosDev মোবাইলের জন্য প্রিমিয়াম ফুটবল কার্ড কালেকশন গেম তৈরি করে।"
+  },
+  "game": {
+    "explore": "গেম দেখুন",
+    "back": "সব গেমে ফিরে যান",
+    "featuresTitle": "গেমের বৈশিষ্ট্য",
+    "aboutTitle": "এই গেম সম্পর্কে",
+    "relatedTitle": "সম্পর্কিত গেমস",
+    "screenshots": "স্ক্রিনশট",
+    "swipeHint": "দেখতে সোয়াইপ করুন",
+    "download": "ডাউনলোড",
+    "downloadsSoon": "ডাউনলোড লিংক শীঘ্রই আসছে।",
+    "featuresSoon": "বৈশিষ্ট্য শীঘ্রই জানানো হবে।",
+    "openScreenshot": "স্ক্রিনশট {index} খুলুন",
+    "closeGallery": "গ্যালারি বন্ধ করুন",
+    "previousScreenshot": "পূর্ববর্তী স্ক্রিনশট",
+    "nextScreenshot": "পরবর্তী স্ক্রিনশট",
+    "screenshotOf": "স্ক্রিনশট {current} / {total}",
+    "screenshotAlt": "গেম স্ক্রিনশট {index}",
+    "iconAlt": "{title} আইকন"
+  },
+  "contact": {
+    "telegram": "টেলিগ্রাম",
+    "whatsapp": "হোয়াটসঅ্যাপ",
+    "email": "ইমেইল"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | ফুটবল কার্ড কালেকশন গেম",
+    "homeDescription": "DosBrosDev মোবাইলের জন্য প্রিমিয়াম ফুটবল কার্ড কালেকশন গেম তৈরি করে।",
+    "privacyTitle": "গোপনীয়তা নীতি | DosBrosDev",
+    "privacyDescription": "আমাদের ফুটবল মোবাইল গেমগুলোর জন্য DosBrosDev-এর গোপনীয়তা নীতি পড়ুন।"
+  },
+  "footer": {
+    "rights": "সর্বস্বত্ব সংরক্ষিত।"
+  }
+}

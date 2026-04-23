@@ -1,0 +1,228 @@
+{
+  "slug": "fc-26-england-edition",
+  "icon": "/images/games/fc-26-england-edition/icon.webp",
+  "screenshots": [
+    "/images/games/fc-26-england-edition/1.webp",
+    "/images/games/fc-26-england-edition/2.webp",
+    "/images/games/fc-26-england-edition/3.webp",
+    "/images/games/fc-26-england-edition/4.webp",
+    "/images/games/fc-26-england-edition/5.webp",
+    "/images/games/fc-26-england-edition/6.webp",
+    "/images/games/fc-26-england-edition/7.webp",
+    "/images/games/fc-26-england-edition/8.webp",
+    "/images/games/fc-26-england-edition/9.webp"
+  ],
+  "downloads": [
+    {
+      "label": "RuStore",
+      "url": "https://www.rustore.ru/catalog/app/com.dosbrosdev.fc_26_england"
+    },
+    {
+      "label": "Google Drive",
+      "url": "https://drive.google.com/file/d/17eg6heTLBIWSs-WzfqIyMkAOV56xU2Gc/view?usp=drive_link"
+    },
+    {
+      "label": "Yandex Disk",
+      "url": "https://disk.yandex.ru/d/8LK_FCM4ieW-Cw"
+    }
+  ],
+  "order": 3,
+  "published": true,
+  "translations": {
+    "en": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Collect all 1231 cards of Premier League and Championship football players.",
+      "description": "A football card collecting game focused on England's two major leagues. Unlock card sets, discover star players, build teams in Draft mode, play mini-games, and share cards with friends.",
+      "features": [
+        "Collect 1231 player cards",
+        "Premier League and Championship players",
+        "Build squads in Draft mode",
+        "Play mini-games and earn rewards"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Collect Premier League and Championship player cards, build squads in Draft mode, and expand your football collection."
+    },
+    "es": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Colecciona las 1231 cartas de jugadores de la Premier League y el Championship.",
+      "description": "Un juego de colección de cartas de fútbol centrado en las dos grandes ligas de Inglaterra. Desbloquea sets de cartas, descubre estrellas, crea plantillas en modo Draft, juega minijuegos y comparte cartas con tus amigos.",
+      "features": [
+        "Colecciona 1231 cartas de jugadores",
+        "Jugadores de Premier League y Championship",
+        "Crea plantillas en el modo Draft",
+        "Juega minijuegos y gana recompensas"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Colecciona cartas de la Premier League y el Championship, crea plantillas en Draft y amplía tu colección de fútbol."
+    },
+    "pt": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Colecione as 1231 cartas de jogadores da Premier League e Championship.",
+      "description": "Um jogo de coleção de cartas de futebol focado nas duas principais ligas da Inglaterra. Desbloqueie conjuntos de cartas, descubra estrelas, monte times no modo Draft, jogue minijogos e compartilhe cartas com amigos.",
+      "features": [
+        "Colecione 1231 cartas de jogadores",
+        "Jogadores da Premier League e Championship",
+        "Monte equipes no modo Draft",
+        "Jogue minijogos e ganhe recompensas"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Colecione cartas da Premier League e Championship, monte equipes no modo Draft e expanda sua coleção."
+    },
+    "fr": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Collectionne les 1231 cartes des joueurs de Premier League et Championship.",
+      "description": "Un jeu de collection de cartes de football centré sur les deux grandes ligues anglaises. Débloque des séries de cartes, découvre des stars, crée des équipes en mode Draft, joue à des mini-jeux et partage tes cartes avec tes amis.",
+      "features": [
+        "Collectionne 1231 cartes de joueurs",
+        "Joueurs de Premier League et Championship",
+        "Construis des équipes en mode Draft",
+        "Joue à des mini-jeux et gagne des récompenses"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Collectionne les cartes Premier League et Championship, crée des équipes en Draft et développe ta collection."
+    },
+    "it": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Colleziona tutte le 1231 carte dei giocatori di Premier League e Championship.",
+      "description": "Un gioco di collezione di carte calcistiche dedicato alle due principali leghe inglesi. Sblocca set di carte, scopri i campioni, crea squadre in modalità Draft, gioca ai minigiochi e condividi le carte con gli amici.",
+      "features": [
+        "Colleziona 1231 carte giocatore",
+        "Giocatori di Premier League e Championship",
+        "Crea squadre in modalità Draft",
+        "Gioca ai minigiochi e ottieni ricompense"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Colleziona carte di Premier League e Championship, crea squadre in Draft ed espandi la tua collezione."
+    },
+    "ru": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Собирай все 1231 карточку игроков Премьер-лиги и Чемпионшипа.",
+      "description": "Коллекционная футбольная игра по двум главным английским лигам. Открывай наборы карточек, находи звездных игроков, собирай составы в Draft-режиме, играй в мини-игры и делись карточками с друзьями.",
+      "features": [
+        "Собирай 1231 карточку игроков",
+        "Игроки Премьер-лиги и Чемпионшипа",
+        "Собирай составы в Draft-режиме",
+        "Играй в мини-игры и получай награды"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Собирай карточки игроков Премьер-лиги и Чемпионшипа, формируй составы в Draft-режиме и расширяй коллекцию."
+    },
+    "tr": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Premier League ve Championship oyuncularının 1231 kartının tamamını topla.",
+      "description": "İngiltere'nin iki büyük ligine odaklanan bir futbol kart koleksiyonu oyunu. Kart setlerinin kilidini aç, yıldız oyuncuları keşfet, Draft modunda kadrolar kur, mini oyunlar oyna ve kartlarını arkadaşlarınla paylaş.",
+      "features": [
+        "1231 oyuncu kartı topla",
+        "Premier League ve Championship oyuncuları",
+        "Draft modunda kadrolar kur",
+        "Mini oyunlar oyna, ödüller kazan"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Premier League ve Championship kartlarını topla, Draft modunda kadro kur ve futbol koleksiyonunu büyüt."
+    },
+    "zh": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "收集英超与英冠球员的全部 1231 张卡牌。",
+      "description": "这是一款聚焦英格兰两大联赛的足球卡牌收藏游戏。解锁卡组、发掘球星、在选秀模式中组建阵容、挑战小游戏，并与好友分享卡牌。",
+      "features": [
+        "收集 1231 张球员卡",
+        "英超与英冠球员",
+        "在选秀模式组建阵容",
+        "玩小游戏并赢取奖励"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "收集英超与英冠球员卡，在选秀模式组建阵容并扩展你的足球收藏。"
+    },
+    "ar": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "اجمع جميع بطاقات لاعبي الدوري الإنجليزي الممتاز ودوري البطولة وعددها 1231 بطاقة.",
+      "description": "لعبة تجميع بطاقات كرة قدم تركّز على أكبر بطولتين في إنجلترا. افتح مجموعات البطاقات، واكتشف النجوم، وابنِ تشكيلاتك في وضع Draft، والعب ألعابًا مصغرة، وشارك بطاقاتك مع الأصدقاء.",
+      "features": [
+        "اجمع 1231 بطاقة لاعب",
+        "لاعبو الدوري الإنجليزي الممتاز ودوري البطولة",
+        "كوّن تشكيلات في وضع Draft",
+        "العب ألعابًا مصغرة واحصل على مكافآت"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "اجمع بطاقات لاعبي Premier League وChampionship، وابنِ تشكيلات في وضع Draft، ووسّع مجموعتك."
+    },
+    "ja": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "プレミアリーグとチャンピオンシップの選手カード1231枚をすべて集めよう。",
+      "description": "イングランドの2大リーグに特化したサッカーカード収集ゲーム。カードセットを解放し、スター選手を見つけ、ドラフトモードでチームを編成し、ミニゲームを楽しみ、カードを友だちと共有しよう。",
+      "features": [
+        "1231枚の選手カードを収集",
+        "プレミアリーグ＆チャンピオンシップの選手",
+        "ドラフトモードでチーム編成",
+        "ミニゲームで報酬を獲得"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "プレミアリーグとチャンピオンシップのカードを集め、ドラフトでチームを作り、コレクションを拡大しよう。"
+    },
+    "hi": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Premier League और Championship खिलाड़ियों की सभी 1231 कार्ड्स इकट्ठा करें।",
+      "description": "इंग्लैंड की दो प्रमुख लीगों पर आधारित फुटबॉल कार्ड कलेक्शन गेम। कार्ड सेट अनलॉक करें, स्टार खिलाड़ियों को खोजें, Draft मोड में टीम बनाएं, मिनी-गेम खेलें और दोस्तों के साथ कार्ड शेयर करें।",
+      "features": [
+        "1231 खिलाड़ी कार्ड्स इकट्ठा करें",
+        "Premier League और Championship खिलाड़ी",
+        "Draft मोड में स्क्वाड बनाएं",
+        "मिनी-गेम खेलें और रिवॉर्ड्स पाएं"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Premier League और Championship कार्ड्स इकट्ठा करें, Draft मोड में टीम बनाएं और अपनी कलेक्शन बढ़ाएं।"
+    },
+    "bn": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Premier League ও Championship খেলোয়াড়দের সব 1231টি কার্ড সংগ্রহ করুন।",
+      "description": "ইংল্যান্ডের দুই প্রধান লিগকে কেন্দ্র করে ফুটবল কার্ড সংগ্রহের গেম। কার্ড সেট আনলক করুন, তারকা খেলোয়াড় খুঁজুন, Draft মোডে দল গড়ুন, মিনি-গেম খেলুন এবং বন্ধুদের সাথে কার্ড শেয়ার করুন।",
+      "features": [
+        "1231টি খেলোয়াড় কার্ড সংগ্রহ করুন",
+        "Premier League ও Championship খেলোয়াড়",
+        "Draft মোডে স্কোয়াড তৈরি করুন",
+        "মিনি-গেম খেলুন ও পুরস্কার জিতুন"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Premier League ও Championship কার্ড সংগ্রহ করুন, Draft মোডে দল গড়ুন এবং আপনার সংগ্রহ বাড়ান।"
+    },
+    "de": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Sammle alle 1231 Karten von Premier-League- und Championship-Spielern.",
+      "description": "Ein Fußballkarten-Sammelspiel mit Fokus auf Englands zwei größte Ligen. Schalte Kartensets frei, entdecke Starspieler, stelle Teams im Draft-Modus zusammen, spiele Minispiele und teile Karten mit Freunden.",
+      "features": [
+        "Sammle 1231 Spielerkarten",
+        "Spieler aus Premier League und Championship",
+        "Baue Kader im Draft-Modus",
+        "Spiele Minispiele und verdiene Belohnungen"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Sammle Karten aus Premier League und Championship, baue Teams im Draft-Modus und erweitere deine Sammlung."
+    },
+    "ko": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "프리미어리그와 챔피언십 선수 카드 1231장을 모두 모으세요.",
+      "description": "잉글랜드의 두 주요 리그에 집중한 축구 카드 수집 게임입니다. 카드 세트를 해금하고 스타 선수를 발견하며, 드래프트 모드에서 스쿼드를 만들고, 미니게임을 플레이하고, 친구와 카드를 공유하세요.",
+      "features": [
+        "1231장 선수 카드 수집",
+        "프리미어리그 및 챔피언십 선수",
+        "드래프트 모드에서 스쿼드 구성",
+        "미니게임으로 보상 획득"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "프리미어리그와 챔피언십 카드 수집, 드래프트 스쿼드 구성, 축구 컬렉션 확장을 한 번에."
+    },
+    "vi": {
+      "title": "FC 26 England Edition",
+      "shortDescription": "Sưu tầm đầy đủ 1231 thẻ cầu thủ Premier League và Championship.",
+      "description": "Trò chơi sưu tầm thẻ bóng đá tập trung vào hai giải đấu lớn của Anh. Mở khóa bộ thẻ, khám phá ngôi sao, xây dựng đội hình ở chế độ Draft, chơi mini-game và chia sẻ thẻ với bạn bè.",
+      "features": [
+        "Sưu tầm 1231 thẻ cầu thủ",
+        "Cầu thủ Premier League và Championship",
+        "Xây dựng đội hình trong chế độ Draft",
+        "Chơi mini-game và nhận thưởng"
+      ],
+      "seoTitle": "FC 26 England Edition",
+      "seoDescription": "Sưu tầm thẻ Premier League và Championship, xây đội hình Draft và mở rộng bộ sưu tập bóng đá của bạn."
+    }
+  }
+}

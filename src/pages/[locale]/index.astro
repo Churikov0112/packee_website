@@ -1,0 +1,63 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import HeroSection from '@/components/HeroSection.astro';
+import SectionTitle from '@/components/SectionTitle.astro';
+import GameCard from '@/components/GameCard.astro';
+import AboutFounders from '@/components/AboutFounders.astro';
+import ContactButtons from '@/components/ContactButtons.astro';
+import { getAllGames } from '@/lib/games';
+import { LOCALES, getDictionary, isLocale, type Locale } from '@/lib/i18n';
+import { getSiteData } from '@/lib/site';
+
+export const getStaticPaths = async () => LOCALES.map((locale) => ({ params: { locale } }));
+
+const localeParam = Astro.params.locale;
+if (!localeParam || !isLocale(localeParam)) {
+  return Astro.redirect('/en/');
+}
+
+const locale: Locale = localeParam;
+const dictionary = getDictionary(locale);
+const site = getSiteData(locale);
+const games = getAllGames(locale);
+const currentPath = `/${locale}/`;
+---
+
+<BaseLayout locale={locale} pathname={currentPath} title={dictionary.seo.homeTitle} description={dictionary.seo.homeDescription}>
+  <Header locale={locale} currentPath={currentPath} dictionary={dictionary} site={site} />
+  <main>
+    <HeroSection locale={locale} dictionary={dictionary} site={site} />
+
+    <section id="games" class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+      <SectionTitle eyebrow={dictionary.home.gamesEyebrow} title={dictionary.home.gamesTitle} subtitle={dictionary.home.gamesSubtitle} />
+      <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        {games.map((game) => <GameCard locale={locale} game={game} dictionary={dictionary} />)}
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">
+      <SectionTitle eyebrow={dictionary.home.whyEyebrow} title={dictionary.home.whyTitle} subtitle={dictionary.home.whySubtitle} />
+      <div class="grid gap-4 md:grid-cols-3">
+        {dictionary.home.whyCards.map((item) => (
+          <article class="rounded-2xl bg-white p-6 shadow-card">
+            <h3 class="mb-2 font-bold text-brand-navy">{item.title}</h3>
+            <p class="text-sm text-brand-graphite/75">{item.description}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section id="about" class="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">
+      <SectionTitle eyebrow={dictionary.home.aboutEyebrow} title={dictionary.home.aboutTitle} subtitle={dictionary.home.aboutSubtitle} />
+      <AboutFounders founders={site.founders} />
+    </section>
+
+    <section id="contact" class="mx-auto max-w-6xl px-4 pb-20 sm:px-6 lg:px-8">
+      <SectionTitle eyebrow={dictionary.home.contactEyebrow} title={dictionary.home.contactTitle} subtitle={dictionary.home.contactSubtitle} />
+      <ContactButtons contact={site.contact} labels={dictionary.contact} />
+    </section>
+  </main>
+  <Footer locale={locale} dictionary={dictionary} />
+</BaseLayout>

@@ -1,0 +1,103 @@
+{
+  "title": "Chính sách quyền riêng tư",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Giới thiệu",
+      "paragraphs": [
+        "Chính sách quyền riêng tư dữ liệu cá nhân này (sau đây gọi là “Chính sách quyền riêng tư”) áp dụng cho mọi thông tin mà ứng dụng di động Football Collection, có trên Google Play, App Store, Huawei AppGallery và RuStore, có thể nhận được về Người dùng trong quá trình sử dụng ứng dụng."
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Định nghĩa",
+      "paragraphs": [
+        "Các thuật ngữ sau được sử dụng trong Chính sách quyền riêng tư này:"
+      ],
+      "bullets": [
+        "Ban quản trị ứng dụng di động: những người được ủy quyền chịu trách nhiệm quản lý ứng dụng Football Collection.",
+        "Dữ liệu cá nhân: thông tin, bao gồm địa chỉ IP và vị trí địa lý, liên quan đến một cá nhân đã được xác định hoặc có thể xác định.",
+        "Xử lý dữ liệu cá nhân: mọi thao tác đối với dữ liệu cá nhân, bao gồm thu thập và lưu trữ.",
+        "Tính bảo mật của dữ liệu cá nhân: nghĩa vụ không tiết lộ dữ liệu cá nhân khi chưa có sự đồng ý của người dùng.",
+        "Người dùng ứng dụng di động: người sử dụng ứng dụng Football Collection."
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Quy định chung",
+      "clauses": [
+        {
+          "number": "3.1.",
+          "text": "Chính sách quyền riêng tư này là bắt buộc đối với mọi người dùng ứng dụng Football Collection."
+        },
+        {
+          "number": "3.2.",
+          "text": "Chính sách này và mối quan hệ giữa Người dùng với Ban quản trị ứng dụng chịu sự điều chỉnh của pháp luật hiện hành của Liên bang Nga."
+        },
+        {
+          "number": "3.3.",
+          "text": "Việc sử dụng ứng dụng di động đồng nghĩa với việc người dùng đồng ý với Chính sách quyền riêng tư này."
+        },
+        {
+          "number": "3.4.",
+          "text": "Nếu người dùng không đồng ý với các điều khoản, họ phải ngừng sử dụng ứng dụng."
+        },
+        {
+          "number": "3.5.",
+          "text": "Chính sách này quy định nghĩa vụ của Ban quản trị trong việc bảo vệ tính bảo mật và không tiết lộ dữ liệu cá nhân."
+        },
+        {
+          "number": "3.6.",
+          "text": "Ban quản trị ứng dụng không xác minh độ chính xác của dữ liệu cá nhân do người dùng cung cấp."
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Mục đích thu thập thông tin cá nhân của người dùng",
+      "clauses": [
+        {
+          "number": "4.1.",
+          "text": "Dữ liệu cá nhân của người dùng có thể được Ban quản trị Football Collection sử dụng cho các mục đích sau:"
+        }
+      ],
+      "bullets": [
+        "Phản hồi và liên lạc với người dùng.",
+        "Xác định vị trí người dùng để cung cấp điều hướng.",
+        "Cung cấp hỗ trợ khách hàng và kỹ thuật cho người dùng."
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Phương thức và thời hạn xử lý thông tin",
+      "clauses": [
+        {
+          "number": "5.1.",
+          "text": "Dữ liệu cá nhân được xử lý không giới hạn thời gian, bằng mọi phương thức hợp pháp, bao gồm cả hệ thống thông tin dữ liệu cá nhân có hoặc không có công cụ tự động hóa."
+        },
+        {
+          "number": "5.5.",
+          "text": "Ban quản trị ứng dụng thực hiện các biện pháp tổ chức và kỹ thuật cần thiết để bảo vệ thông tin cá nhân của người dùng khỏi truy cập trái phép hoặc ngẫu nhiên, phá hủy, chỉnh sửa, chặn, sao chép, phân phối và các hành vi trái pháp luật khác của bên thứ ba."
+        },
+        {
+          "number": "5.6.",
+          "text": "Ban quản trị ứng dụng cùng với Người dùng thực hiện mọi biện pháp cần thiết để ngăn ngừa tổn thất hoặc hậu quả tiêu cực khác do mất mát hoặc tiết lộ dữ liệu cá nhân."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Điều kiện bổ sung",
+      "clauses": [
+        {
+          "number": "6.1.",
+          "text": "Ban quản trị ứng dụng có thể sửa đổi Chính sách quyền riêng tư này mà không cần sự đồng ý của người dùng."
+        },
+        {
+          "number": "6.2.",
+          "text": "Phiên bản mới của Chính sách quyền riêng tư có hiệu lực kể từ thời điểm được công bố trong ứng dụng di động, trừ khi phiên bản mới có quy định khác."
+        }
+      ]
+    }
+  ]
+}

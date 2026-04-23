@@ -1,0 +1,18 @@
+---
+import type { Locale, UiDictionary } from '@/lib/i18n';
+import { localizePath } from '@/lib/i18n';
+
+interface Props {
+  locale: Locale;
+  dictionary: UiDictionary;
+}
+
+const { locale, dictionary } = Astro.props;
+---
+
+<footer class="border-t border-brand-navy/10 bg-white/80">
+  <div class="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-sm text-brand-graphite/70 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+    <p>© {new Date().getFullYear()} DosBrosDev. {dictionary.footer.rights}</p>
+    <a href={localizePath(locale, '/privacy')} class="font-medium text-brand-navy hover:text-brand-emerald">{dictionary.nav.privacy}</a>
+  </div>
+</footer>

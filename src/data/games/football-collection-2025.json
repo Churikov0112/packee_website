@@ -1,0 +1,227 @@
+{
+  "slug": "football-collection-2025",
+  "icon": "/images/games/football-collection-2025/icon.webp",
+  "screenshots": [
+    "/images/games/football-collection-2025/1.webp",
+    "/images/games/football-collection-2025/2.webp",
+    "/images/games/football-collection-2025/3.webp",
+    "/images/games/football-collection-2025/4.webp",
+    "/images/games/football-collection-2025/5.webp",
+    "/images/games/football-collection-2025/6.webp",
+    "/images/games/football-collection-2025/7.webp",
+    "/images/games/football-collection-2025/8.webp"
+  ],
+  "downloads": [
+    {
+      "label": "Google Play",
+      "url": "https://play.google.com/store/apps/details?id=com.nineone.football_collection_2025&hl=ru"
+    },
+    {
+      "label": "RuStore",
+      "url": "https://www.rustore.ru/catalog/app/com.nineone.football_collection_2025"
+    },
+    {
+      "label": "Google Drive",
+      "url": "https://drive.google.com/file/d/1x-kLfOUi4NfU1U7qgxhxQMmP179Xs3Sq/view?usp=sharing"
+    }
+  ],
+  "order": 2,
+  "published": true,
+  "translations": {
+    "en": {
+      "title": "Football Collection 2025",
+      "shortDescription": "Collect all 3000+ football cards from around the world.",
+      "description": "Collect all 3000+ cards of football players around the world! Open packs for free and play mini-games!",
+      "features": [
+        "Collect 3000+ player cards",
+        "Open packs for free",
+        "Play mini-games for rewards",
+        "Trade and share cards with friends"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "Collect 3000+ football player cards, open packs, play mini-games, and build your collection."
+    },
+    "es": {
+      "title": "Football Collection 2025",
+      "shortDescription": "Colecciona más de 3000 cartas de fútbol de todo el mundo.",
+      "description": "¡Colecciona más de 3000 cartas de futbolistas de todo el mundo! Abre sobres gratis y juega minijuegos.",
+      "features": [
+        "Colecciona más de 3000 cartas de jugadores",
+        "Abre sobres gratis",
+        "Juega minijuegos para conseguir recompensas",
+        "Intercambia y comparte cartas con amigos"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "Colecciona más de 3000 cartas de futbolistas, abre sobres, juega minijuegos y amplía tu colección."
+    },
+    "pt": {
+      "title": "Football Collection 2025",
+      "shortDescription": "Colecione mais de 3000 cartas de futebol do mundo todo.",
+      "description": "Colecione mais de 3000 cartas de jogadores do mundo todo! Abra pacotes grátis e jogue minijogos!",
+      "features": [
+        "Colecione mais de 3000 cartas de jogadores",
+        "Abra pacotes gratuitamente",
+        "Jogue minijogos para ganhar recompensas",
+        "Troque e compartilhe cartas com amigos"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "Colecione mais de 3000 cartas de jogadores, abra pacotes, jogue minijogos e expanda sua coleção."
+    },
+    "fr": {
+      "title": "Football Collection 2025",
+      "shortDescription": "Collectionne plus de 3000 cartes de football du monde entier.",
+      "description": "Collectionne plus de 3000 cartes de joueurs du monde entier ! Ouvre des packs gratuitement et joue à des mini-jeux !",
+      "features": [
+        "Collectionne plus de 3000 cartes de joueurs",
+        "Ouvre des packs gratuitement",
+        "Joue à des mini-jeux pour gagner des récompenses",
+        "Échange et partage des cartes avec tes amis"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "Collectionne plus de 3000 cartes de joueurs, ouvre des packs, joue à des mini-jeux et développe ta collection."
+    },
+    "it": {
+      "title": "Football Collection 2025",
+      "shortDescription": "Colleziona oltre 3000 carte di calcio da tutto il mondo.",
+      "description": "Colleziona oltre 3000 carte di calciatori da tutto il mondo! Apri pacchetti gratis e gioca ai minigiochi!",
+      "features": [
+        "Colleziona oltre 3000 carte giocatore",
+        "Apri pacchetti gratuitamente",
+        "Gioca ai minigiochi per ottenere ricompense",
+        "Scambia e condividi carte con gli amici"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "Colleziona oltre 3000 carte calciatore, apri pacchetti, gioca ai minigiochi e amplia la tua collezione."
+    },
+    "ru": {
+      "title": "Football Collection 2025",
+      "shortDescription": "Собирай 3000+ футбольных карточек со всего мира.",
+      "description": "Собирай более 3000 карточек футболистов со всего мира. Открывай паки бесплатно и играй в мини-игры.",
+      "features": [
+        "Собирай 3000+ карточек игроков",
+        "Открывай паки бесплатно",
+        "Играй в мини-игры и получай награды",
+        "Обменивайся карточками с друзьями"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "Собирай 3000+ футбольных карточек, открывай паки, играй в мини-игры и собирай коллекцию."
+    },
+    "tr": {
+      "title": "Football Collection 2025",
+      "shortDescription": "Dünyanın dört bir yanından 3000+ futbol kartını topla.",
+      "description": "Dünyanın dört bir yanındaki futbolculardan 3000+ kartı topla! Paketleri ücretsiz aç ve mini oyunlar oyna!",
+      "features": [
+        "3000+ oyuncu kartı topla",
+        "Paketleri ücretsiz aç",
+        "Ödüller için mini oyunlar oyna",
+        "Arkadaşlarınla kart takas et ve paylaş"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "3000+ futbolcu kartı topla, paket aç, mini oyunlar oyna ve koleksiyonunu büyüt."
+    },
+    "zh": {
+      "title": "Football Collection 2025",
+      "shortDescription": "收集来自世界各地的 3000+ 足球卡牌。",
+      "description": "收集来自全球球员的 3000+ 卡牌！免费开启卡包并畅玩小游戏！",
+      "features": [
+        "收集 3000+ 球员卡",
+        "免费开启卡包",
+        "通过小游戏赢取奖励",
+        "与朋友交换并分享卡牌"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "收集 3000+ 足球球员卡，开卡包、玩小游戏并扩展你的收藏。"
+    },
+    "ar": {
+      "title": "Football Collection 2025",
+      "shortDescription": "اجمع أكثر من 3000 بطاقة كرة قدم من جميع أنحاء العالم.",
+      "description": "اجمع أكثر من 3000 بطاقة للاعبي كرة القدم من مختلف أنحاء العالم! افتح الحزم مجانًا والعب ألعابًا مصغرة!",
+      "features": [
+        "اجمع أكثر من 3000 بطاقة لاعب",
+        "افتح الحزم مجانًا",
+        "العب ألعابًا مصغرة للحصول على مكافآت",
+        "بادل وشارك البطاقات مع الأصدقاء"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "اجمع أكثر من 3000 بطاقة لاعبين، وافتح الحزم، والعب ألعابًا مصغرة، ووسّع مجموعتك."
+    },
+    "ja": {
+      "title": "Football Collection 2025",
+      "shortDescription": "世界中の3000枚以上のサッカーカードを集めよう。",
+      "description": "世界中の選手カード3000枚以上を集めよう！無料でパックを開封し、ミニゲームを楽しもう！",
+      "features": [
+        "3000枚以上の選手カードを収集",
+        "無料でパックを開封",
+        "ミニゲームで報酬を獲得",
+        "友だちとカードを交換・共有"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "3000枚以上の選手カードを集め、パックを開け、ミニゲームでコレクションを広げよう。"
+    },
+    "hi": {
+      "title": "Football Collection 2025",
+      "shortDescription": "दुनिया भर की 3000+ फुटबॉल कार्ड्स इकट्ठा करें।",
+      "description": "दुनिया भर के फुटबॉल खिलाड़ियों की 3000+ कार्ड्स इकट्ठा करें! मुफ्त में पैक खोलें और मिनी-गेम खेलें!",
+      "features": [
+        "3000+ खिलाड़ी कार्ड्स इकट्ठा करें",
+        "मुफ्त में पैक खोलें",
+        "रिवॉर्ड्स के लिए मिनी-गेम खेलें",
+        "दोस्तों के साथ कार्ड्स ट्रेड और शेयर करें"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "3000+ फुटबॉल खिलाड़ी कार्ड्स इकट्ठा करें, पैक खोलें, मिनी-गेम खेलें और अपना कलेक्शन बढ़ाएं।"
+    },
+    "bn": {
+      "title": "Football Collection 2025",
+      "shortDescription": "সারা বিশ্বের 3000+ ফুটবল কার্ড সংগ্রহ করুন।",
+      "description": "সারা বিশ্বের ফুটবল খেলোয়াড়দের 3000+ কার্ড সংগ্রহ করুন! বিনামূল্যে প্যাক খুলুন এবং মিনি-গেম খেলুন!",
+      "features": [
+        "3000+ খেলোয়াড় কার্ড সংগ্রহ করুন",
+        "বিনামূল্যে প্যাক খুলুন",
+        "পুরস্কারের জন্য মিনি-গেম খেলুন",
+        "বন্ধুদের সাথে কার্ড বিনিময় ও শেয়ার করুন"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "3000+ ফুটবল খেলোয়াড়ের কার্ড সংগ্রহ করুন, প্যাক খুলুন, মিনি-গেম খেলুন এবং আপনার সংগ্রহ বাড়ান।"
+    },
+    "de": {
+      "title": "Football Collection 2025",
+      "shortDescription": "Sammle über 3000 Fußballkarten aus aller Welt.",
+      "description": "Sammle über 3000 Karten von Fußballspielern aus aller Welt! Öffne kostenlos Packs und spiele Minispiele!",
+      "features": [
+        "Sammle über 3000 Spielerkarten",
+        "Öffne Packs kostenlos",
+        "Spiele Minispiele für Belohnungen",
+        "Tausche und teile Karten mit Freunden"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "Sammle über 3000 Spielerkarten, öffne Packs, spiele Minispiele und erweitere deine Sammlung."
+    },
+    "ko": {
+      "title": "Football Collection 2025",
+      "shortDescription": "전 세계의 3000+ 축구 카드를 수집하세요.",
+      "description": "전 세계 축구 선수 카드 3000+장을 수집하세요! 무료로 팩을 열고 미니게임을 즐기세요!",
+      "features": [
+        "3000+ 선수 카드 수집",
+        "무료로 팩 열기",
+        "미니게임으로 보상 획득",
+        "친구와 카드 교환 및 공유"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "3000+ 축구 선수 카드를 모으고, 팩을 열고, 미니게임을 하며 컬렉션을 확장하세요."
+    },
+    "vi": {
+      "title": "Football Collection 2025",
+      "shortDescription": "Sưu tầm hơn 3000 thẻ bóng đá từ khắp thế giới.",
+      "description": "Sưu tầm hơn 3000 thẻ cầu thủ bóng đá trên toàn thế giới! Mở gói miễn phí và chơi mini-game!",
+      "features": [
+        "Sưu tầm hơn 3000 thẻ cầu thủ",
+        "Mở gói miễn phí",
+        "Chơi mini-game để nhận thưởng",
+        "Trao đổi và chia sẻ thẻ với bạn bè"
+      ],
+      "seoTitle": "Football Collection 2025",
+      "seoDescription": "Sưu tầm hơn 3000 thẻ cầu thủ, mở gói, chơi mini-game và mở rộng bộ sưu tập của bạn."
+    }
+  }
+}

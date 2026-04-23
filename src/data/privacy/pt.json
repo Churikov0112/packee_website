@@ -1,0 +1,103 @@
+{
+  "title": "Política de Privacidade",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Introdução",
+      "paragraphs": [
+        "Esta Política de Privacidade de Dados Pessoais aplica-se a todas as informações que o aplicativo móvel Football Collection, disponível no Google Play, App Store, Huawei AppGallery e RuStore, possa receber sobre um Usuário durante o uso do aplicativo."
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Definições",
+      "paragraphs": [
+        "Os seguintes termos são usados nesta Política de Privacidade:"
+      ],
+      "bullets": [
+        "Administração do Aplicativo Móvel: pessoas autorizadas responsáveis pela gestão do aplicativo Football Collection.",
+        "Dados pessoais: informações, incluindo endereço IP e geolocalização, relacionadas a uma pessoa identificada ou identificável.",
+        "Tratamento de dados pessoais: quaisquer operações com dados pessoais, incluindo coleta e armazenamento.",
+        "Confidencialidade dos dados pessoais: obrigação de não divulgar dados pessoais sem consentimento do usuário.",
+        "Usuário do aplicativo móvel: pessoa que utiliza o aplicativo Football Collection."
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Disposições gerais",
+      "clauses": [
+        {
+          "number": "3.1.",
+          "text": "Esta Política de Privacidade é obrigatória para todos os usuários do aplicativo Football Collection."
+        },
+        {
+          "number": "3.2.",
+          "text": "A legislação vigente da Federação Russa se aplica a esta Política de Privacidade e às relações entre o Usuário e a Administração do Aplicativo."
+        },
+        {
+          "number": "3.3.",
+          "text": "O uso do aplicativo significa que o usuário concorda com esta Política de Privacidade."
+        },
+        {
+          "number": "3.4.",
+          "text": "Se o usuário não concordar com os termos, deverá interromper o uso do aplicativo."
+        },
+        {
+          "number": "3.5.",
+          "text": "Esta Política estabelece as obrigações da Administração para proteger a confidencialidade e a não divulgação de dados pessoais."
+        },
+        {
+          "number": "3.6.",
+          "text": "A Administração do Aplicativo não verifica a exatidão dos dados pessoais fornecidos pelos usuários."
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Finalidades da coleta de informações pessoais do usuário",
+      "clauses": [
+        {
+          "number": "4.1.",
+          "text": "Os dados pessoais do usuário podem ser utilizados pela Administração do Football Collection para as seguintes finalidades:"
+        }
+      ],
+      "bullets": [
+        "Feedback e comunicação com o usuário.",
+        "Determinação da localização do usuário para fornecer navegação.",
+        "Fornecimento de suporte técnico e atendimento ao usuário."
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Métodos e prazos de processamento de informações",
+      "clauses": [
+        {
+          "number": "5.1.",
+          "text": "Os dados pessoais são processados sem limitação de prazo, por quaisquer meios legais, inclusive em sistemas de informação com ou sem ferramentas de automação."
+        },
+        {
+          "number": "5.5.",
+          "text": "A Administração adota as medidas organizacionais e técnicas necessárias para proteger as informações pessoais do usuário contra acesso ilegal ou acidental, destruição, alteração, bloqueio, cópia, distribuição e outras ações ilegais de terceiros."
+        },
+        {
+          "number": "5.6.",
+          "text": "A Administração, juntamente com o Usuário, toma todas as medidas necessárias para evitar perdas ou outras consequências negativas causadas por perda ou divulgação de dados pessoais."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Condições adicionais",
+      "clauses": [
+        {
+          "number": "6.1.",
+          "text": "A Administração do Aplicativo pode alterar esta Política de Privacidade sem consentimento do usuário."
+        },
+        {
+          "number": "6.2.",
+          "text": "Uma nova versão da Política de Privacidade entra em vigor a partir do momento de sua publicação no aplicativo móvel, salvo disposição em contrário na nova versão."
+        }
+      ]
+    }
+  ]
+}

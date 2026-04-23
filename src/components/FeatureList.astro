@@ -1,0 +1,18 @@
+---
+interface Props {
+  features: string[];
+  title: string;
+  emptyLabel: string;
+}
+
+const { features, title, emptyLabel } = Astro.props;
+---
+
+<section>
+  <h3 class="mb-4 text-xl font-bold text-brand-navy">{title}</h3>
+  <ul class="grid gap-3 sm:grid-cols-2">
+    {(features.length ? features : [emptyLabel]).map((feature) => (
+      <li class="rounded-xl border border-brand-emerald/20 bg-brand-emerald/5 px-4 py-3 text-sm text-brand-graphite">{feature}</li>
+    ))}
+  </ul>
+</section>

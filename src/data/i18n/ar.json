@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "الألعاب",
+    "about": "من نحن",
+    "contact": "التواصل",
+    "privacy": "الخصوصية"
+  },
+  "hero": {
+    "badge": "استوديو كرة قدم مستقل",
+    "ctaPrimary": "استكشف الألعاب",
+    "ctaSecondary": "تواصل مع الاستوديو"
+  },
+  "home": {
+    "gamesEyebrow": "الألعاب",
+    "gamesTitle": "استكشف الألعاب",
+    "gamesSubtitle": "تطوّر DosBrosDev ألعاب جمع بطاقات كرة قدم مميزة للهواتف.",
+    "whyEyebrow": "لماذا DosBrosDev",
+    "whyTitle": "لماذا DosBrosDev",
+    "whySubtitle": "تطوّر DosBrosDev ألعاب جمع بطاقات كرة قدم مميزة للهواتف.",
+    "whyCards": [
+      {
+        "title": "لماذا DosBrosDev",
+        "description": "تطوّر DosBrosDev ألعاب جمع بطاقات كرة قدم مميزة للهواتف."
+      },
+      {
+        "title": "الألعاب",
+        "description": "تطوّر DosBrosDev ألعاب جمع بطاقات كرة قدم مميزة للهواتف."
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "تطوّر DosBrosDev ألعاب جمع بطاقات كرة قدم مميزة للهواتف."
+      }
+    ],
+    "aboutEyebrow": "من نحن",
+    "aboutTitle": "من نحن",
+    "aboutSubtitle": "تطوّر DosBrosDev ألعاب جمع بطاقات كرة قدم مميزة للهواتف.",
+    "contactEyebrow": "التواصل",
+    "contactTitle": "التواصل",
+    "contactSubtitle": "تطوّر DosBrosDev ألعاب جمع بطاقات كرة قدم مميزة للهواتف."
+  },
+  "game": {
+    "explore": "عرض اللعبة",
+    "back": "العودة إلى جميع الألعاب",
+    "featuresTitle": "مميزات اللعبة",
+    "aboutTitle": "عن هذه اللعبة",
+    "relatedTitle": "ألعاب ذات صلة",
+    "screenshots": "لقطات الشاشة",
+    "swipeHint": "اسحب للاستكشاف",
+    "download": "تنزيل",
+    "downloadsSoon": "روابط التنزيل قريبًا.",
+    "featuresSoon": "سيتم الإعلان عن المميزات قريبًا.",
+    "openScreenshot": "فتح لقطة الشاشة {index}",
+    "closeGallery": "إغلاق المعرض",
+    "previousScreenshot": "اللقطة السابقة",
+    "nextScreenshot": "اللقطة التالية",
+    "screenshotOf": "لقطة {current} من {total}",
+    "screenshotAlt": "لقطة شاشة {index}",
+    "iconAlt": "أيقونة {title}"
+  },
+  "contact": {
+    "telegram": "تيليغرام",
+    "whatsapp": "واتساب",
+    "email": "البريد الإلكتروني"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | ألعاب جمع بطاقات كرة القدم",
+    "homeDescription": "تطوّر DosBrosDev ألعاب جمع بطاقات كرة قدم مميزة للهواتف.",
+    "privacyTitle": "سياسة الخصوصية | DosBrosDev",
+    "privacyDescription": "اقرأ سياسة خصوصية DosBrosDev لألعاب كرة القدم على الجوال."
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة."
+  }
+}

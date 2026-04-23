@@ -1,0 +1,28 @@
+{
+  "name": "DosBrosDev",
+  "tagline": "Juegos premium de colección de cartas de fútbol para móviles",
+  "heroTitle": "Colecciona la grandeza del fútbol. Un sobre a la vez.",
+  "heroDescription": "DosBrosDev son dos hermanos que aman el fútbol y ayudan a los fans de todo el mundo a coleccionar sus cartas favoritas gratis.",
+  "contact": {
+    "telegram": "https://t.me/dosbrosdev",
+    "whatsapp": "https://chat.whatsapp.com/FRadRMQ6gLP4mX03KDANtf",
+    "email": "mailto:dosbrosdev@gmail.com"
+  },
+  "founders": [
+    {
+      "name": "Egor Churikov",
+      "role": "Software Developer",
+      "photo": "/images/founders/Egor.webp"
+    },
+    {
+      "name": "Ivan Churikov",
+      "role": "2D & 3D Artist",
+      "photo": "/images/founders/Ivan.webp"
+    },
+    {
+      "name": "Petr",
+      "role": "Software Developer",
+      "photo": "/images/founders/Petr.webp"
+    }
+  ]
+}

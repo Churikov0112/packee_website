@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "Oyunlar",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "privacy": "Gizlilik"
+  },
+  "hero": {
+    "badge": "Bağımsız futbol stüdyosu",
+    "ctaPrimary": "Oyunları keşfet",
+    "ctaSecondary": "Stüdyo ile iletişim"
+  },
+  "home": {
+    "gamesEyebrow": "Oyunlar",
+    "gamesTitle": "Oyunları keşfet",
+    "gamesSubtitle": "DosBrosDev mobil için premium futbol kart koleksiyonu oyunları geliştirir.",
+    "whyEyebrow": "Neden DosBrosDev",
+    "whyTitle": "Neden DosBrosDev",
+    "whySubtitle": "DosBrosDev mobil için premium futbol kart koleksiyonu oyunları geliştirir.",
+    "whyCards": [
+      {
+        "title": "Neden DosBrosDev",
+        "description": "DosBrosDev mobil için premium futbol kart koleksiyonu oyunları geliştirir."
+      },
+      {
+        "title": "Oyunlar",
+        "description": "DosBrosDev mobil için premium futbol kart koleksiyonu oyunları geliştirir."
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev mobil için premium futbol kart koleksiyonu oyunları geliştirir."
+      }
+    ],
+    "aboutEyebrow": "Hakkımızda",
+    "aboutTitle": "Hakkımızda",
+    "aboutSubtitle": "DosBrosDev mobil için premium futbol kart koleksiyonu oyunları geliştirir.",
+    "contactEyebrow": "İletişim",
+    "contactTitle": "İletişim",
+    "contactSubtitle": "DosBrosDev mobil için premium futbol kart koleksiyonu oyunları geliştirir."
+  },
+  "game": {
+    "explore": "Oyunu incele",
+    "back": "Tüm oyunlara dön",
+    "featuresTitle": "Oyun özellikleri",
+    "aboutTitle": "Bu oyun hakkında",
+    "relatedTitle": "Benzer oyunlar",
+    "screenshots": "Ekran görüntüleri",
+    "swipeHint": "Keşfetmek için kaydır",
+    "download": "İndir",
+    "downloadsSoon": "İndirme bağlantıları yakında.",
+    "featuresSoon": "Özellikler yakında açıklanacak.",
+    "openScreenshot": "Ekran görüntüsünü aç {index}",
+    "closeGallery": "Galeriyi kapat",
+    "previousScreenshot": "Önceki ekran görüntüsü",
+    "nextScreenshot": "Sonraki ekran görüntüsü",
+    "screenshotOf": "Ekran görüntüsü {current}/{total}",
+    "screenshotAlt": "Oyun ekran görüntüsü {index}",
+    "iconAlt": "{title} simgesi"
+  },
+  "contact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "email": "E-posta"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | Futbol kart koleksiyonu oyunları",
+    "homeDescription": "DosBrosDev mobil için premium futbol kart koleksiyonu oyunları geliştirir.",
+    "privacyTitle": "Gizlilik politikası | DosBrosDev",
+    "privacyDescription": "Futbol mobil oyunlarımız için DosBrosDev gizlilik politikasını okuyun."
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  }
+}

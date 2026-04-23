@@ -1,0 +1,28 @@
+{
+  "name": "DosBrosDev",
+  "tagline": "Premium football card collection games for mobile",
+  "heroTitle": "Collect football greatness. One pack at a time.",
+  "heroDescription": "DosBrosDev are 2 brothers who love football and help fans worldwide collect their favorite football cards for free.",
+  "contact": {
+    "telegram": "https://t.me/dosbrosdev",
+    "whatsapp": "https://chat.whatsapp.com/FRadRMQ6gLP4mX03KDANtf",
+    "email": "mailto:dosbrosdev@gmail.com"
+  },
+  "founders": [
+    {
+      "name": "Egor Churikov",
+      "role": "Software Developer",
+      "photo": "/images/founders/Egor.webp"
+    },
+    {
+      "name": "Ivan Churikov",
+      "role": "2D & 3D Artist",
+      "photo": "/images/founders/Ivan.webp"
+    },
+    {
+      "name": "Petr",
+      "role": "Software Developer",
+      "photo": "/images/founders/Petr.webp"
+    }
+  ]
+}

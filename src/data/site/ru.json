@@ -1,0 +1,28 @@
+{
+  "name": "DosBrosDev",
+  "tagline": "Премиальные футбольные карточные игры для мобильных устройств",
+  "heroTitle": "Собирай футбольное величие. По одному паку за раз.",
+  "heroDescription": "DosBrosDev — это два брата, которые любят футбол и помогают фанатам по всему миру собирать любимые карточки бесплатно.",
+  "contact": {
+    "telegram": "https://t.me/dosbrosdev",
+    "whatsapp": "https://chat.whatsapp.com/FRadRMQ6gLP4mX03KDANtf",
+    "email": "mailto:dosbrosdev@gmail.com"
+  },
+  "founders": [
+    {
+      "name": "Egor Churikov",
+      "role": "Software Developer",
+      "photo": "/images/founders/Egor.webp"
+    },
+    {
+      "name": "Ivan Churikov",
+      "role": "2D & 3D Artist",
+      "photo": "/images/founders/Ivan.webp"
+    },
+    {
+      "name": "Petr",
+      "role": "Software Developer",
+      "photo": "/images/founders/Petr.webp"
+    }
+  ]
+}

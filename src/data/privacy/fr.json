@@ -1,0 +1,103 @@
+{
+  "title": "Politique de confidentialité",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Introduction",
+      "paragraphs": [
+        "La présente Politique de confidentialité des données personnelles s’applique à toutes les informations que l’application mobile Football Collection, disponible sur Google Play, App Store, Huawei AppGallery et RuStore, peut recevoir concernant un Utilisateur pendant l’utilisation de l’application."
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Définitions",
+      "paragraphs": [
+        "Les termes suivants sont utilisés dans la présente Politique de confidentialité :"
+      ],
+      "bullets": [
+        "Administration de l’application mobile : personnes autorisées responsables de la gestion de l’application Football Collection.",
+        "Données personnelles : informations, y compris l’adresse IP et la géolocalisation, concernant une personne identifiée ou identifiable.",
+        "Traitement des données personnelles : toute opération effectuée sur les données personnelles, y compris la collecte et le stockage.",
+        "Confidentialité des données personnelles : obligation de ne pas divulguer les données personnelles sans le consentement de l’utilisateur.",
+        "Utilisateur de l’application mobile : personne utilisant l’application Football Collection."
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Dispositions générales",
+      "clauses": [
+        {
+          "number": "3.1.",
+          "text": "La présente Politique de confidentialité est obligatoire pour tous les utilisateurs de l’application Football Collection."
+        },
+        {
+          "number": "3.2.",
+          "text": "La législation en vigueur de la Fédération de Russie s’applique à cette Politique et aux relations entre l’Utilisateur et l’Administration."
+        },
+        {
+          "number": "3.3.",
+          "text": "L’utilisation de l’application mobile signifie l’acceptation de cette Politique de confidentialité."
+        },
+        {
+          "number": "3.4.",
+          "text": "Si l’utilisateur n’accepte pas les conditions, il doit cesser d’utiliser l’application."
+        },
+        {
+          "number": "3.5.",
+          "text": "Cette Politique définit les obligations de l’Administration concernant la protection et la non-divulgation des données personnelles."
+        },
+        {
+          "number": "3.6.",
+          "text": "L’Administration de l’application ne vérifie pas l’exactitude des données personnelles fournies par les utilisateurs."
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Finalités de la collecte des informations personnelles de l’utilisateur",
+      "clauses": [
+        {
+          "number": "4.1.",
+          "text": "Les données personnelles de l’utilisateur peuvent être utilisées par l’Administration de Football Collection aux fins suivantes :"
+        }
+      ],
+      "bullets": [
+        "Retour utilisateur et communication.",
+        "Détermination de la localisation de l’utilisateur pour fournir la navigation.",
+        "Fourniture d’une assistance client et technique."
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Méthodes et durées de traitement des informations",
+      "clauses": [
+        {
+          "number": "5.1.",
+          "text": "Les données personnelles sont traitées sans limitation de durée, par tout moyen légal, y compris dans des systèmes d’information avec ou sans automatisation."
+        },
+        {
+          "number": "5.5.",
+          "text": "L’Administration prend les mesures organisationnelles et techniques nécessaires pour protéger les informations personnelles de l’utilisateur contre tout accès illicite ou accidentel, destruction, modification, blocage, copie, diffusion et autres actions illicites de tiers."
+        },
+        {
+          "number": "5.6.",
+          "text": "L’Administration, avec l’Utilisateur, prend toutes les mesures nécessaires pour prévenir les pertes ou autres conséquences négatives causées par la perte ou la divulgation de données personnelles."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Conditions supplémentaires",
+      "clauses": [
+        {
+          "number": "6.1.",
+          "text": "L’Administration de l’application peut modifier la présente Politique de confidentialité sans le consentement de l’utilisateur."
+        },
+        {
+          "number": "6.2.",
+          "text": "Une nouvelle version de la Politique de confidentialité entre en vigueur dès sa publication dans l’application mobile, sauf disposition contraire de la nouvelle version."
+        }
+      ]
+    }
+  ]
+}

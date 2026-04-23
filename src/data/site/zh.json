@@ -1,0 +1,28 @@
+{
+  "name": "DosBrosDev",
+  "tagline": "面向移动端的高品质足球卡牌收藏游戏",
+  "heroTitle": "逐包收集足球荣耀。",
+  "heroDescription": "DosBrosDev 由两位热爱足球的兄弟创立，帮助全球球迷免费收藏喜欢的足球卡牌。",
+  "contact": {
+    "telegram": "https://t.me/dosbrosdev",
+    "whatsapp": "https://chat.whatsapp.com/FRadRMQ6gLP4mX03KDANtf",
+    "email": "mailto:dosbrosdev@gmail.com"
+  },
+  "founders": [
+    {
+      "name": "Egor Churikov",
+      "role": "Software Developer",
+      "photo": "/images/founders/Egor.webp"
+    },
+    {
+      "name": "Ivan Churikov",
+      "role": "2D & 3D Artist",
+      "photo": "/images/founders/Ivan.webp"
+    },
+    {
+      "name": "Petr",
+      "role": "Software Developer",
+      "photo": "/images/founders/Petr.webp"
+    }
+  ]
+}

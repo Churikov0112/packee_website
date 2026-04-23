@@ -1,0 +1,209 @@
+{
+  "slug": "euro-pack-collection-2024",
+  "icon": "/images/games/euro-pack-collection-2024/icon.webp",
+  "screenshots": [
+    "/images/games/euro-pack-collection-2024/1.webp",
+    "/images/games/euro-pack-collection-2024/2.webp",
+    "/images/games/euro-pack-collection-2024/3.webp",
+    "/images/games/euro-pack-collection-2024/4.webp",
+    "/images/games/euro-pack-collection-2024/5.webp"
+  ],
+  "downloads": [
+    {
+      "label": "RuStore",
+      "url": "https://www.rustore.ru/catalog/app/com.example.euro_collect_app"
+    },
+    {
+      "label": "Google Drive",
+      "url": "https://drive.google.com/file/d/10ChtnNmEKDfOPkiw3OIiZZfUySD1dh_J/view?usp=drive_link"
+    },
+    {
+      "label": "Yandex Disk",
+      "url": "https://disk.yandex.ru/d/S_TmQ7irfe1sBg"
+    }
+  ],
+  "order": 1,
+  "published": true,
+  "translations": {
+    "en": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "Collect your favorite football players from EURO 2024.",
+      "description": "Collect all your favorite football players from EURO 2024! Open folders with player cards and complete your album.",
+      "features": [
+        "Collect EURO 2024 player cards",
+        "Open card folders and fill the album",
+        "Simple lightweight collectible experience"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "Collect your favorite football players from EURO 2024 in a lightweight football card collection game."
+    },
+    "es": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "Colecciona a tus futbolistas favoritos de la EURO 2024.",
+      "description": "¡Colecciona a todos tus futbolistas favoritos de la EURO 2024! Abre sobres con cartas de jugadores y completa tu álbum.",
+      "features": [
+        "Colecciona cartas de jugadores de la EURO 2024",
+        "Abre sobres de cartas y completa el álbum",
+        "Experiencia de colección simple y ligera"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "Colecciona a tus futbolistas favoritos de la EURO 2024 en un juego ligero de cartas de fútbol."
+    },
+    "pt": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "Colecione seus jogadores favoritos da EURO 2024.",
+      "description": "Colecione todos os seus jogadores favoritos da EURO 2024! Abra pacotes com cartas de jogadores e complete seu álbum.",
+      "features": [
+        "Colecione cartas de jogadores da EURO 2024",
+        "Abra pacotes e complete o álbum",
+        "Experiência de coleção simples e leve"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "Colecione seus jogadores favoritos da EURO 2024 em um jogo leve de cartas de futebol."
+    },
+    "fr": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "Collectionne tes joueurs préférés de l'EURO 2024.",
+      "description": "Collectionne tous tes joueurs préférés de l'EURO 2024 ! Ouvre des packs de cartes et complète ton album.",
+      "features": [
+        "Collectionne les cartes des joueurs de l'EURO 2024",
+        "Ouvre des packs et remplis l'album",
+        "Expérience de collection simple et légère"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "Collectionne tes joueurs préférés de l'EURO 2024 dans un jeu de cartes de football léger."
+    },
+    "it": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "Colleziona i tuoi calciatori preferiti di EURO 2024.",
+      "description": "Colleziona tutti i tuoi calciatori preferiti di EURO 2024! Apri i pacchetti con le carte e completa il tuo album.",
+      "features": [
+        "Colleziona le carte dei giocatori di EURO 2024",
+        "Apri i pacchetti e completa l'album",
+        "Esperienza di collezione semplice e leggera"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "Colleziona i tuoi calciatori preferiti di EURO 2024 in un gioco leggero di carte di calcio."
+    },
+    "ru": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "Собирай любимых футболистов ЕВРО 2024.",
+      "description": "Собери коллекцию любимых футболистов ЕВРО 2024! Открывай папки с карточками и заполняй альбом.",
+      "features": [
+        "Собирай карточки игроков ЕВРО 2024",
+        "Открывай папки с карточками и заполняй альбом",
+        "Лёгкий и увлекательный коллекционный опыт"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "Собирай любимых футболистов ЕВРО 2024 в лёгкой игре про коллекционирование карточек."
+    },
+    "tr": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "EURO 2024'teki favori futbolcularını topla.",
+      "description": "EURO 2024'teki tüm favori futbolcularını topla! Oyuncu kartı paketlerini aç ve albümünü tamamla.",
+      "features": [
+        "EURO 2024 oyuncu kartlarını topla",
+        "Kart paketlerini aç ve albümü doldur",
+        "Basit ve hafif bir koleksiyon deneyimi"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "EURO 2024 favori futbolcularını hafif bir futbol kart koleksiyonu oyununda topla."
+    },
+    "zh": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "收集你最喜欢的 EURO 2024 足球球员。",
+      "description": "收集你最喜欢的全部 EURO 2024 足球球员！打开球员卡包并完成你的相册。",
+      "features": [
+        "收集 EURO 2024 球员卡",
+        "开启卡包并填满相册",
+        "轻量易上手的收藏体验"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "在轻量级足球卡牌收藏游戏中收集你最喜欢的 EURO 2024 球员。"
+    },
+    "ar": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "اجمع لاعبيك المفضلين من يورو 2024.",
+      "description": "اجمع كل لاعبيك المفضلين من يورو 2024! افتح حزم بطاقات اللاعبين وأكمل ألبومك.",
+      "features": [
+        "اجمع بطاقات لاعبي يورو 2024",
+        "افتح الحزم واملأ الألبوم",
+        "تجربة تجميع بسيطة وخفيفة"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "اجمع لاعبيك المفضلين من يورو 2024 في لعبة خفيفة لتجميع بطاقات كرة القدم."
+    },
+    "ja": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "EURO 2024の好きな選手を集めよう。",
+      "description": "EURO 2024の好きな選手カードをすべて集めよう！カードパックを開封してアルバムを完成させよう。",
+      "features": [
+        "EURO 2024の選手カードを収集",
+        "カードパックを開封してアルバムを埋める",
+        "シンプルで軽快なコレクション体験"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "軽量なサッカーカード収集ゲームでEURO 2024の好きな選手を集めよう。"
+    },
+    "hi": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "EURO 2024 के अपने पसंदीदा फुटबॉल खिलाड़ियों को इकट्ठा करें।",
+      "description": "EURO 2024 के अपने सभी पसंदीदा फुटबॉल खिलाड़ियों को इकट्ठा करें! प्लेयर कार्ड पैक खोलें और अपना एल्बम पूरा करें।",
+      "features": [
+        "EURO 2024 खिलाड़ी कार्ड इकट्ठा करें",
+        "कार्ड पैक खोलें और एल्बम भरें",
+        "सरल और हल्का कलेक्शन अनुभव"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "हल्के फुटबॉल कार्ड कलेक्शन गेम में EURO 2024 के अपने पसंदीदा खिलाड़ियों को इकट्ठा करें।"
+    },
+    "bn": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "EURO 2024-এর আপনার প্রিয় ফুটবল খেলোয়াড়দের সংগ্রহ করুন।",
+      "description": "EURO 2024-এর আপনার সব প্রিয় ফুটবল খেলোয়াড় সংগ্রহ করুন! প্লেয়ার কার্ড প্যাক খুলুন এবং আপনার অ্যালবাম পূর্ণ করুন।",
+      "features": [
+        "EURO 2024 খেলোয়াড়ের কার্ড সংগ্রহ করুন",
+        "কার্ড প্যাক খুলে অ্যালবাম পূর্ণ করুন",
+        "সহজ ও হালকা সংগ্রহ অভিজ্ঞতা"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "হালকা ফুটবল কার্ড সংগ্রহ গেমে EURO 2024-এর প্রিয় খেলোয়াড়দের সংগ্রহ করুন।"
+    },
+    "de": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "Sammle deine Lieblingsfußballer der EURO 2024.",
+      "description": "Sammle all deine Lieblingsfußballer der EURO 2024! Öffne Kartenpacks und vervollständige dein Album.",
+      "features": [
+        "Sammle EURO-2024-Spielerkarten",
+        "Öffne Kartenpacks und fülle dein Album",
+        "Einfaches und leichtes Sammelerlebnis"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "Sammle deine Lieblingsfußballer der EURO 2024 in einem leichten Fußballkarten-Spiel."
+    },
+    "ko": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "EURO 2024의 좋아하는 축구 선수를 모아보세요.",
+      "description": "EURO 2024의 좋아하는 축구 선수 카드를 모두 모아보세요! 카드 팩을 열고 앨범을 완성하세요.",
+      "features": [
+        "EURO 2024 선수 카드 수집",
+        "카드 팩을 열고 앨범 채우기",
+        "간단하고 가벼운 수집 경험"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "가벼운 축구 카드 수집 게임에서 EURO 2024의 좋아하는 선수를 모아보세요."
+    },
+    "vi": {
+      "title": "Euro Pack Collection 2024",
+      "shortDescription": "Sưu tầm các cầu thủ yêu thích của bạn tại EURO 2024.",
+      "description": "Sưu tầm toàn bộ cầu thủ yêu thích của bạn tại EURO 2024! Mở gói thẻ cầu thủ và hoàn thành album.",
+      "features": [
+        "Sưu tầm thẻ cầu thủ EURO 2024",
+        "Mở gói thẻ và lấp đầy album",
+        "Trải nghiệm sưu tầm đơn giản, nhẹ nhàng"
+      ],
+      "seoTitle": "Euro Pack Collection 2024",
+      "seoDescription": "Sưu tầm cầu thủ EURO 2024 yêu thích trong game sưu tầm thẻ bóng đá nhẹ nhàng."
+    }
+  }
+}

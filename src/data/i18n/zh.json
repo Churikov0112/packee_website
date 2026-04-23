@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "游戏",
+    "about": "关于我们",
+    "contact": "联系",
+    "privacy": "隐私"
+  },
+  "hero": {
+    "badge": "独立足球工作室",
+    "ctaPrimary": "探索游戏",
+    "ctaSecondary": "联系工作室"
+  },
+  "home": {
+    "gamesEyebrow": "游戏",
+    "gamesTitle": "探索游戏",
+    "gamesSubtitle": "DosBrosDev 打造高品质移动端足球卡牌收藏游戏。",
+    "whyEyebrow": "为什么选择 DosBrosDev",
+    "whyTitle": "为什么选择 DosBrosDev",
+    "whySubtitle": "DosBrosDev 打造高品质移动端足球卡牌收藏游戏。",
+    "whyCards": [
+      {
+        "title": "为什么选择 DosBrosDev",
+        "description": "DosBrosDev 打造高品质移动端足球卡牌收藏游戏。"
+      },
+      {
+        "title": "游戏",
+        "description": "DosBrosDev 打造高品质移动端足球卡牌收藏游戏。"
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev 打造高品质移动端足球卡牌收藏游戏。"
+      }
+    ],
+    "aboutEyebrow": "关于我们",
+    "aboutTitle": "关于我们",
+    "aboutSubtitle": "DosBrosDev 打造高品质移动端足球卡牌收藏游戏。",
+    "contactEyebrow": "联系",
+    "contactTitle": "联系",
+    "contactSubtitle": "DosBrosDev 打造高品质移动端足球卡牌收藏游戏。"
+  },
+  "game": {
+    "explore": "查看游戏",
+    "back": "返回全部游戏",
+    "featuresTitle": "游戏特色",
+    "aboutTitle": "关于本游戏",
+    "relatedTitle": "相关游戏",
+    "screenshots": "截图",
+    "swipeHint": "滑动浏览",
+    "download": "下载",
+    "downloadsSoon": "下载链接即将提供。",
+    "featuresSoon": "功能信息即将发布。",
+    "openScreenshot": "打开截图 {index}",
+    "closeGallery": "关闭图库",
+    "previousScreenshot": "上一张截图",
+    "nextScreenshot": "下一张截图",
+    "screenshotOf": "第 {current} 张，共 {total} 张",
+    "screenshotAlt": "游戏截图 {index}",
+    "iconAlt": "{title} 图标"
+  },
+  "contact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "email": "电子邮件"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | 足球卡牌收藏游戏",
+    "homeDescription": "DosBrosDev 打造高品质移动端足球卡牌收藏游戏。",
+    "privacyTitle": "隐私政策 | DosBrosDev",
+    "privacyDescription": "阅读 DosBrosDev 足球手游隐私政策。"
+  },
+  "footer": {
+    "rights": "保留所有权利。"
+  }
+}

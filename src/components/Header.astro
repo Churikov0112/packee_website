@@ -1,0 +1,83 @@
+---
+import type { Locale, UiDictionary } from '@/lib/i18n';
+import type { SiteData } from '@/lib/site';
+import { localizePath } from '@/lib/i18n';
+import LanguageSwitcher from '@/components/LanguageSwitcher.astro';
+
+interface Props {
+  locale: Locale;
+  currentPath: string;
+  dictionary: UiDictionary;
+  site: SiteData;
+}
+
+const { locale, currentPath, dictionary, site } = Astro.props;
+---
+
+<header class="sticky top-0 z-20 border-b border-white/10 bg-brand-navy/95 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8" data-header-root>
+    <a href={localizePath(locale)} class="text-lg font-bold tracking-wide text-white">{site.name}</a>
+    <nav class="hidden items-center gap-3 text-sm text-white/90 sm:gap-5 md:flex">
+      <a href={localizePath(locale, '/#games')} class="hover:text-brand-gold">{dictionary.nav.games}</a>
+      <a href={localizePath(locale, '/#about')} class="hover:text-brand-gold">{dictionary.nav.about}</a>
+      <a href={localizePath(locale, '/#contact')} class="hover:text-brand-gold">{dictionary.nav.contact}</a>
+      <a href={localizePath(locale, '/privacy')} class="hover:text-brand-gold">{dictionary.nav.privacy}</a>
+      <LanguageSwitcher currentLocale={locale} currentPath={currentPath} />
+    </nav>
+
+    <div class="flex items-center gap-2 md:hidden">
+      <LanguageSwitcher currentLocale={locale} currentPath={currentPath} compact />
+      <button
+        type="button"
+        class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/30 bg-white/10 text-lg text-white hover:bg-white/20"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        data-mobile-menu-trigger
+      >
+        ☰
+      </button>
+    </div>
+  </div>
+
+  <div class="hidden border-t border-white/10 bg-brand-navy/95 px-4 pb-4 pt-3 sm:px-6 md:hidden" data-mobile-menu>
+    <nav class="flex flex-col gap-1 text-sm text-white/90">
+      <a href={localizePath(locale, '/#games')} class="rounded-lg px-3 py-2 hover:bg-white/10">{dictionary.nav.games}</a>
+      <a href={localizePath(locale, '/#about')} class="rounded-lg px-3 py-2 hover:bg-white/10">{dictionary.nav.about}</a>
+      <a href={localizePath(locale, '/#contact')} class="rounded-lg px-3 py-2 hover:bg-white/10">{dictionary.nav.contact}</a>
+      <a href={localizePath(locale, '/privacy')} class="rounded-lg px-3 py-2 hover:bg-white/10">{dictionary.nav.privacy}</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  document.querySelectorAll('[data-header-root]').forEach((root) => {
+    const trigger = root.querySelector('[data-mobile-menu-trigger]');
+    const menu = root.parentElement?.querySelector('[data-mobile-menu]');
+
+    if (!(trigger instanceof HTMLButtonElement) || !(menu instanceof HTMLElement)) {
+      return;
+    }
+
+    const closeMenu = () => {
+      menu.classList.add('hidden');
+      trigger.setAttribute('aria-expanded', 'false');
+      trigger.textContent = '☰';
+    };
+
+    trigger.addEventListener('click', () => {
+      const isHidden = menu.classList.toggle('hidden');
+      trigger.setAttribute('aria-expanded', String(!isHidden));
+      trigger.textContent = isHidden ? '☰' : '✕';
+    });
+
+    menu.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', closeMenu);
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        closeMenu();
+      }
+    });
+  });
+</script>

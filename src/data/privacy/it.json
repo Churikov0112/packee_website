@@ -1,0 +1,103 @@
+{
+  "title": "Informativa sulla privacy",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Introduzione",
+      "paragraphs": [
+        "La presente Informativa sulla privacy dei dati personali si applica a tutte le informazioni che l’app mobile Football Collection, disponibile su Google Play, App Store, Huawei AppGallery e RuStore, può ricevere su un Utente durante l’utilizzo dell’applicazione."
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Definizioni",
+      "paragraphs": [
+        "Nella presente Informativa sulla privacy si utilizzano i seguenti termini:"
+      ],
+      "bullets": [
+        "Amministrazione dell’app mobile: persone autorizzate responsabili della gestione dell’app Football Collection.",
+        "Dati personali: informazioni, inclusi indirizzo IP e geolocalizzazione, riferite a una persona fisica identificata o identificabile.",
+        "Trattamento dei dati personali: qualsiasi operazione sui dati personali, inclusa raccolta e conservazione.",
+        "Riservatezza dei dati personali: obbligo di non divulgare i dati personali senza il consenso dell’utente.",
+        "Utente dell’app mobile: persona che utilizza l’app Football Collection."
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Disposizioni generali",
+      "clauses": [
+        {
+          "number": "3.1.",
+          "text": "La presente Informativa è obbligatoria per tutti gli utenti dell’app Football Collection."
+        },
+        {
+          "number": "3.2.",
+          "text": "Alla presente Informativa e ai rapporti tra Utente e Amministrazione si applica la normativa vigente della Federazione Russa."
+        },
+        {
+          "number": "3.3.",
+          "text": "L’uso dell’app mobile implica l’accettazione della presente Informativa sulla privacy."
+        },
+        {
+          "number": "3.4.",
+          "text": "Se l’utente non accetta i termini, deve interrompere l’uso dell’app."
+        },
+        {
+          "number": "3.5.",
+          "text": "La presente Informativa stabilisce gli obblighi dell’Amministrazione per proteggere la riservatezza e la non divulgazione dei dati personali."
+        },
+        {
+          "number": "3.6.",
+          "text": "L’Amministrazione non verifica l’accuratezza dei dati personali forniti dagli utenti."
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Finalità della raccolta dei dati personali dell’utente",
+      "clauses": [
+        {
+          "number": "4.1.",
+          "text": "I dati personali dell’utente possono essere utilizzati dall’Amministrazione di Football Collection per le seguenti finalità:"
+        }
+      ],
+      "bullets": [
+        "Feedback e comunicazione con l’utente.",
+        "Determinazione della posizione dell’utente per fornire la navigazione.",
+        "Fornitura di assistenza clienti e supporto tecnico."
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Modalità e tempi di trattamento delle informazioni",
+      "clauses": [
+        {
+          "number": "5.1.",
+          "text": "I dati personali sono trattati senza limiti temporali, con qualsiasi mezzo lecito, inclusi sistemi informativi con o senza strumenti di automazione."
+        },
+        {
+          "number": "5.5.",
+          "text": "L’Amministrazione adotta le misure organizzative e tecniche necessarie per proteggere le informazioni personali dell’utente da accessi illeciti o accidentali, distruzione, alterazione, blocco, copia, diffusione e altre azioni illecite di terzi."
+        },
+        {
+          "number": "5.6.",
+          "text": "L’Amministrazione, insieme all’Utente, adotta tutte le misure necessarie per prevenire perdite o altre conseguenze negative causate dalla perdita o divulgazione dei dati personali."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Condizioni aggiuntive",
+      "clauses": [
+        {
+          "number": "6.1.",
+          "text": "L’Amministrazione dell’app può modificare la presente Informativa sulla privacy senza il consenso dell’utente."
+        },
+        {
+          "number": "6.2.",
+          "text": "Una nuova versione dell’Informativa entra in vigore dal momento della sua pubblicazione nell’app mobile, salvo diversa disposizione nella nuova versione."
+        }
+      ]
+    }
+  ]
+}

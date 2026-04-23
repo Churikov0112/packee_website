@@ -1,0 +1,36 @@
+---
+import '@/styles/global.css';
+import { getAlternateLinks, isRtlLocale, type Locale } from '@/lib/i18n';
+
+interface Props {
+  locale: Locale;
+  pathname: string;
+  title: string;
+  description: string;
+}
+
+const { locale, pathname, title, description } = Astro.props;
+const dir = isRtlLocale(locale) ? 'rtl' : 'ltr';
+const baseUrl = 'https://dosbrosdev.com';
+const canonical = new URL(pathname, baseUrl).toString();
+const alternates = getAlternateLinks(pathname).map((entry) => ({
+  ...entry,
+  href: new URL(entry.href, baseUrl).toString()
+}));
+---
+
+<!doctype html>
+<html lang={locale} dir={dir}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {alternates.map((alternate) => <link rel="alternate" hreflang={alternate.locale} href={alternate.href} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL('/en/', baseUrl).toString()} />
+  </head>
+  <body class="min-h-screen">
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "Trò chơi",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "privacy": "Quyền riêng tư"
+  },
+  "hero": {
+    "badge": "Studio bóng đá indie",
+    "ctaPrimary": "Khám phá game",
+    "ctaSecondary": "Liên hệ studio"
+  },
+  "home": {
+    "gamesEyebrow": "Trò chơi",
+    "gamesTitle": "Khám phá game",
+    "gamesSubtitle": "DosBrosDev phát triển game sưu tập thẻ bóng đá cao cấp cho di động.",
+    "whyEyebrow": "Vì sao chọn DosBrosDev",
+    "whyTitle": "Vì sao chọn DosBrosDev",
+    "whySubtitle": "DosBrosDev phát triển game sưu tập thẻ bóng đá cao cấp cho di động.",
+    "whyCards": [
+      {
+        "title": "Vì sao chọn DosBrosDev",
+        "description": "DosBrosDev phát triển game sưu tập thẻ bóng đá cao cấp cho di động."
+      },
+      {
+        "title": "Trò chơi",
+        "description": "DosBrosDev phát triển game sưu tập thẻ bóng đá cao cấp cho di động."
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev phát triển game sưu tập thẻ bóng đá cao cấp cho di động."
+      }
+    ],
+    "aboutEyebrow": "Giới thiệu",
+    "aboutTitle": "Giới thiệu",
+    "aboutSubtitle": "DosBrosDev phát triển game sưu tập thẻ bóng đá cao cấp cho di động.",
+    "contactEyebrow": "Liên hệ",
+    "contactTitle": "Liên hệ",
+    "contactSubtitle": "DosBrosDev phát triển game sưu tập thẻ bóng đá cao cấp cho di động."
+  },
+  "game": {
+    "explore": "Xem game",
+    "back": "Quay lại tất cả trò chơi",
+    "featuresTitle": "Tính năng trò chơi",
+    "aboutTitle": "Về trò chơi này",
+    "relatedTitle": "Trò chơi liên quan",
+    "screenshots": "Ảnh chụp màn hình",
+    "swipeHint": "Vuốt để khám phá",
+    "download": "Tải xuống",
+    "downloadsSoon": "Liên kết tải xuống sẽ sớm có.",
+    "featuresSoon": "Tính năng sẽ sớm được cập nhật.",
+    "openScreenshot": "Mở ảnh chụp {index}",
+    "closeGallery": "Đóng thư viện",
+    "previousScreenshot": "Ảnh trước",
+    "nextScreenshot": "Ảnh tiếp theo",
+    "screenshotOf": "Ảnh {current}/{total}",
+    "screenshotAlt": "Ảnh chụp trò chơi {index}",
+    "iconAlt": "Biểu tượng {title}"
+  },
+  "contact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | Game sưu tập thẻ bóng đá",
+    "homeDescription": "DosBrosDev phát triển game sưu tập thẻ bóng đá cao cấp cho di động.",
+    "privacyTitle": "Chính sách quyền riêng tư | DosBrosDev",
+    "privacyDescription": "Đọc chính sách quyền riêng tư của DosBrosDev cho các game bóng đá di động."
+  },
+  "footer": {
+    "rights": "Đã đăng ký bản quyền."
+  }
+}

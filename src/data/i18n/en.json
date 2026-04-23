@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "games": "Games",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "badge": "Indie Football Studio",
+    "ctaPrimary": "Explore Games",
+    "ctaSecondary": "Contact Studio"
+  },
+  "home": {
+    "gamesEyebrow": "Games",
+    "gamesTitle": "Our Football Collection Universe",
+    "gamesSubtitle": "DosBrosDev builds premium football card collection games for mobile players worldwide.",
+    "whyEyebrow": "Why DosBrosDev",
+    "whyTitle": "Why DosBrosDev",
+    "whySubtitle": "DosBrosDev builds premium football card collection games for mobile players worldwide.",
+    "whyCards": [
+      {
+        "title": "Why DosBrosDev",
+        "description": "DosBrosDev builds premium football card collection games for mobile players worldwide."
+      },
+      {
+        "title": "Games",
+        "description": "DosBrosDev builds premium football card collection games for mobile players worldwide."
+      },
+      {
+        "title": "DosBrosDev",
+        "description": "DosBrosDev builds premium football card collection games for mobile players worldwide."
+      }
+    ],
+    "aboutEyebrow": "About Us",
+    "aboutTitle": "About Us",
+    "aboutSubtitle": "DosBrosDev builds premium football card collection games for mobile players worldwide.",
+    "contactEyebrow": "Contact",
+    "contactTitle": "Contact",
+    "contactSubtitle": "DosBrosDev builds premium football card collection games for mobile players worldwide."
+  },
+  "game": {
+    "explore": "Explore game",
+    "back": "Back to all games",
+    "featuresTitle": "Game Features",
+    "aboutTitle": "About this game",
+    "relatedTitle": "Related games",
+    "screenshots": "Screenshots",
+    "swipeHint": "Swipe to explore",
+    "download": "Download",
+    "downloadsSoon": "Download links coming soon.",
+    "featuresSoon": "Features will be announced soon.",
+    "openScreenshot": "Open screenshot {index}",
+    "closeGallery": "Close gallery",
+    "previousScreenshot": "Previous screenshot",
+    "nextScreenshot": "Next screenshot",
+    "screenshotOf": "Screenshot {current} of {total}",
+    "screenshotAlt": "Game screenshot {index}",
+    "iconAlt": "{title} icon"
+  },
+  "contact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  },
+  "seo": {
+    "homeTitle": "DosBrosDev | Football Card Collection Games",
+    "homeDescription": "DosBrosDev builds premium football card collection games for mobile players worldwide.",
+    "privacyTitle": "Privacy Policy | DosBrosDev",
+    "privacyDescription": "Read the DosBrosDev privacy policy for our football mobile games."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
